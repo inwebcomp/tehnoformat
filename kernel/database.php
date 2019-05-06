@@ -15,7 +15,7 @@ class Database {
 	public static function GetDatabaseSettings($part = ""){
 		$db_settings = array();
 
-		if(preg_match("/\.localhost/", $_SERVER["HTTP_HOST"]) or $_SERVER['SESSIONNAME'] == 'Console')
+		if(preg_match("/localhost/", $_SERVER["HTTP_HOST"]) or $_SERVER['SESSIONNAME'] == 'Console')
         	$settingsPath = dirname(__FILE__) . "/../local_settings.cfg";
 		else
 			$settingsPath = dirname(__FILE__) . "/../settings.cfg";
