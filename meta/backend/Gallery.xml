@@ -1,0 +1,17 @@
+<model name="Gallery">
+	<table name="Gallery" extends="Default">
+		<item name="title" type="VARCHAR" length="255" multilang="1" />
+		<item name="name" multilang="1" required="1" generate_from="title" type="VARCHAR" length="255" />
+		<item name="base_image" type="VARCHAR" length="255" />
+	</table>
+
+	<form name="create" extends="Default">
+		<item name="title" type="String" required="1" />
+		<item name="name" type="String" required="1" seo="title" length="255" />
+	</form>
+
+	<form name="edit" extends="Default">
+		<item name="title" type="String" required="1" />
+		<item name="name" type="String" required="1" seo="title" length="255" />
+	</form>
+</model>

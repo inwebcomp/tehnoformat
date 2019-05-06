@@ -1,0 +1,3 @@
+Select Error (1932) Table 'termofor_tehno_new.Client_ml' doesn't exist in engine
+SELECT COUNT(*) FROM `Client` LEFT JOIN `Client_ml` ON `Client`.ID = `Client_ml`.ID WHERE 1 AND `Client_ml`.lang_ID = '1' AND `Client`.`block` != 1
+

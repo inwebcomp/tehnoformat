@@ -1,0 +1,67 @@
+html, body {padding:0; margin:0; font-family:tahoma; font-size:9pt;background:#ccccdd; }
+table {font-family:tahoma; font-size:9pt; }
+.head { float:left; width: 687px;
+		background:#bbbbcc; 
+		border:1px solid #aaaaaa;  
+		padding:5px 5px 5px 5px; 
+		-moz-border-radius: 5px; 
+		-khtml-border-radius: 5px; 
+		-webkit-border-radius: 5px; 
+		border-radius:5px}
+.footer { width: 687px;
+		background:#bbbbcc; 
+		border:1px solid #aaaaaa;  
+		padding:5px 5px 5px 5px; 
+		-moz-border-radius: 5px; 
+		-khtml-border-radius: 5px; 
+		-webkit-border-radius: 5px; 
+		border-radius:5px}
+#head_logo img {
+float:left;
+display:block;
+width: 70px
+}
+
+#head_text{
+float:left;
+padding-left:20px;
+padding-top:5px;
+padding-bottom:5px;
+}
+
+.maintester {width: 700px; 
+		margin-left:10px;
+		margin: 10px auto;
+		border:1px solid #aaaaaa;  
+		background:white; 
+		padding:5px 5px 5px 5px; 
+		-moz-border-radius: 10px; 
+		-khtml-border-radius: 10px; 
+		-webkit-border-radius: 10px; 
+		border-radius:10px}
+		
+.test {width: 687px;
+		border:1px solid #aaaaaa;  
+		background:#eeeeee; 
+		padding:5px 5px 5px 5px; 
+		-moz-border-radius: 5px; 
+		-khtml-border-radius: 5px; 
+		-webkit-border-radius: 5px; 
+		border-radius:5px}
+		
+.div_messagebox{
+	border:1px solid #551A8B;
+	background:#fafafa; 
+	padding:5px 5px 5px 5px; 
+	-moz-border-radius: 5px; 
+	-khtml-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	border-radius:5px;
+	width: 700px;
+	position:absolute;
+	left:50%;
+	top:130px;
+	margin-left:-357px;
+	z-index:2;
+	display : block;
+}		

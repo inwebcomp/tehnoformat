@@ -1,0 +1,1 @@
+<div id="image">{%ifset err%}{%mess%}{%else%}{%mess%}<br /><br /><img src="/img/images/{%folder%}/{%.file_name%}" style="max-width:780px;" />{%endif%}</div>

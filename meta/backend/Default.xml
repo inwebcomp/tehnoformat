@@ -1,0 +1,27 @@
+<model>
+
+	<table>
+		<item name="ID" type="INT" length="11" key="primary" auto_increment="1" />
+		<item name="created" type="DATETIME" default="NULL" />
+		<item name="updated" type="DATETIME" default="NULL" />
+		<item name="pos" type="INT" length="11" default="0" save_fast="1" />
+		<item name="block" type="TINYINT" length="1" default="0" />
+		<item name="creator_ID" type="INT" length="11" default="NULL" />
+		<item name="updater_ID" type="INT" length="11" default="NULL" />
+
+		<fk name="creator_ID" table="User" column="ID" on_delete="SET NULL" on_update="CASCADE" />
+		<fk name="updater_ID" table="User" column="ID" on_delete="SET NULL" on_update="CASCADE" />
+	</table>
+
+	<form name="create">
+		<item name="pos" type="Int" />
+		<item name="block" type="Bool" />
+	</form>
+
+	<form name="edit">
+		<item name="ID" type="Int" required="1" save_fast="1" />
+		<item name="pos" type="Int" save_fast="1" />
+		<item name="block" type="Bool" />
+	</form>
+
+</model>

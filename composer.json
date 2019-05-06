@@ -1,0 +1,25 @@
+{
+    "name": "inwebcomp/tehnoformat",
+    "authors": [
+        {
+            "name": "Alexander Topalo",
+            "email": "inwebcomp@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "symfony/finder": "^3.3",
+        "bramus/router": "^1.1"
+	},
+    "require-dev": {
+        "larapack/dd": "^1.1",
+        "symfony/console": "^3.3"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Hex\\": "Hex/",
+            "App\\": "App/"
+        }
+    }
+}

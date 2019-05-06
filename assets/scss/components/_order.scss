@@ -1,0 +1,74 @@
+.block--order {
+    background-image: url($img-path + "man-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-bottom: $padding * 5;
+}
+
+.order {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .title {
+        margin: 0 0 $padding * 4;
+    }
+
+    .subtitle {
+        margin-right: $padding;
+    }
+}
+
+.order__button-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order__text {
+    margin-right: $padding * 2;
+    padding-bottom: $padding * 2;
+}
+
+.order__icon {
+    margin-right: $padding * 2;
+    position: relative;
+
+    &::after {
+        content: '';
+        display: block;
+        width: 900px;
+        height: $padding * 2;
+        border: 1px dashed #6e839d;
+        border-top: none;
+        position: absolute;
+        left: 50%;
+        top: 100%;
+    }
+}
+
+.order__image {
+    position: relative;
+    z-index: 1;
+}
+
+
+
+body .popup-container {
+    .order-form {
+        max-width: 600px;
+
+        .contacts-form__info {
+            max-width: 100%;
+        }
+
+        .contacts-form__info__line {
+            text-align: center;
+        }
+
+        .contacts-form__form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+    }
+}

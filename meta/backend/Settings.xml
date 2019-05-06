@@ -1,0 +1,29 @@
+<model name="Settings">
+
+	<table name="Settings" extends="Default">
+		<item name="title" type="VARCHAR" length="255" multilang="1" />
+		<item name="name" type="VARCHAR" length="255" unique="1" />
+		<item name="value" type="VARCHAR" length="255" default="NULL" multilang="1" save_fast="1" />
+		<item name="group_ID" type="INT" length="10" default="1" />
+		<item name="type" type="VARCHAR" length="255" default="string" />
+		
+		<fk name="settings_groups" table="Settingsgroups" column="ID" on_delete="CASCADE" on_update="CASCADE" />
+	</table>
+
+	<form name="create" extends="Default">
+		<item name="title" type="String" min_length="2" max_length="255" required="1" err_mess="Минимальный размер поля - 2 символа" />
+		<item name="name" type="String" min_length="2" max_length="255" required="1" err_mess="Минимальный размер поля - 2 символа" />
+		<item name="value" type="String" save_fast="1" />
+		<item name="group_ID" type="Int" max_length="10" required="1" err_mess="Выберите категорию параметра" />
+		<item name="type" type="String" length="255" />
+	</form>
+
+	<form name="edit" extends="Default">
+		<item name="title" type="String" min_length="2" max_length="255" required="1" err_mess="Минимальный размер поля - 2 символа" />
+		<item name="name" type="String" min_length="2" max_length="255" required="1" err_mess="Минимальный размер поля - 2 символа" />
+		<item name="value" type="String" save_fast="1" />
+		<item name="group_ID" type="Int" max_length="10" required="1" err_mess="Выберите категорию параметра" />
+		<item name="type" type="String" length="255" />
+	</form>
+
+</model>

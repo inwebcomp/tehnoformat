@@ -1,0 +1,150 @@
+.block--contacts {
+    margin-top: 0;
+    padding: $padding * 4 0;
+}
+
+.index-contacts {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: $padding * 2;
+}
+
+.index-contact {
+    display: flex;
+    position: relative;
+
+    &::before {
+        content: '';
+        display: block;
+        border-bottom: 1px dashed $border-color;
+        position: absolute;
+        width: 100%;
+        top: 34px;
+        left: $padding * 2;
+        z-index: -1;
+    }
+}
+
+.index-contact__icon {
+    margin-right: $padding;
+
+    .circle-icon__image {
+        top: 15px;
+        left: 15px;
+    }
+}
+
+.index-contact__label {
+    font-size: 1.6rem;
+    color: $font-color-grey;
+    margin-bottom: $padding * 1.5;
+}
+
+.index-contact__value {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.index-contact--phone .index-contact__value {
+    font-size: 1.8rem;
+}
+
+
+
+
+
+
+
+
+.contacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: $padding * 5;
+    margin-top: $padding * 5;
+}
+
+.contact {
+    border: 1px dashed $border-color;
+    position: relative;
+    padding: $padding * 2 $padding * 2 $padding * 2 $padding * 5;
+}
+
+.contact__icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 45px;
+    padding: 20px;
+    background-color: $primary-color;
+    position: absolute;
+    top: -45px;
+    left: -45px;
+}
+
+.contact__icon__img {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.contact__title {
+    font-size: 2rem;
+    color: $primary-color;
+    font-weight: bold;
+    position: absolute;
+    bottom: 100%;
+    margin-bottom: $padding / 2;
+    left: $padding * 5;
+}
+
+i.contact__line__icon {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 18px;
+    background-color: bg($primary-color);
+    text-align: center;
+    font-size: 1.8rem;
+    color: $primary-color;
+    margin-right: $padding;
+}
+
+.contact__line {
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+
+    & + .contact__line {
+        margin-top: $padding * 1.5;
+    }
+}
+
+.contact__line__label {
+    color: $font-color-grey;
+    margin-bottom: $padding / 4;
+    flex-basis: 100%;
+}
+
+.contact__line__value {
+    font-weight: bold;
+    margin-right: $padding;
+
+    .contact__line__value:last-child {
+        margin-right: 0;
+    }
+}
+
+.contact__line__info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact__line__info--phone {
+    font-size: 1.8rem;
+}
+
+.page--contacts {
+    .footer {
+        margin-top: 0;
+    }
+}

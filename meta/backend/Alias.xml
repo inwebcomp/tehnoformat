@@ -1,0 +1,24 @@
+<model name="Alias">
+
+	<table name="Alias" extends="Default">
+		<item name="title" type="VARCHAR" length="255" multilang="1" />
+		<item name="meta_title" type="VARCHAR" length="255" multilang="1" />
+		<item name="name" type="VARCHAR" length="255" unique="1" multilang="1" />
+		<item name="root" type="TEXT" multilang="1" description="Без указания языка" />
+	</table>
+
+	<form name="create" extends="Default">
+		<item name="title" type="String" required="1" />
+		<item name="meta_title" type="String" required="1" />
+		<item name="name" type="String" seo="title" required="1" />
+		<item name="root" type="String" required="1" />
+	</form>
+
+	<form name="edit" extends="Default">
+		<item name="title" type="String" required="1" />
+		<item name="meta_title" type="String" required="1" />
+		<item name="name" type="String" seo="title" required="1" />
+		<item name="root" type="String" required="1" />
+	</form>
+
+</model>

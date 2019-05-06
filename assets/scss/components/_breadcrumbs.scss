@@ -1,0 +1,21 @@
+.breadcrumbs {
+    display: block;
+    padding: $padding * .75 $padding;
+    border: 1px dashed $border-color;
+    border-radius: $border-radius;
+    margin-bottom: $padding * 3;
+    transition: background-color $transition;
+    font-size: 1.6rem;
+    color: $font-color-grey;
+    font-weight: 500;
+}
+
+.breadcrumbs__separator {
+    margin: 0 $padding / 2;
+}
+
+.breadcrumbs__item:not(:last-child) {
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #899aaf;
+}

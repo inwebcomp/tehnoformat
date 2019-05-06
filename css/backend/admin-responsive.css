@@ -1,0 +1,6 @@
+@media screen and (max-width:768px){
+	/*.cms_left { position:fixed; top:0; left:-201px; border-right:1px solid #333; z-index:999999; }
+	.cms_content { padding-left:0; }
+	.cms_menu_show { display:inline-block !important; position:fixed; top:0; left:0; z-index:999999; }
+	.cms_menu_show_place { background-color:#222; vertical-align:top; width:45px; height:45px; display:inline-block; }*/
+}

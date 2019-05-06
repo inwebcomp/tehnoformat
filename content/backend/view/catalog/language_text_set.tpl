@@ -1,0 +1,1 @@
+{%controller admmenu/left admmenu_top%}

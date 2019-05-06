@@ -1,0 +1,24 @@
+.counter-analog span.part {
+    display: inline-block;
+}
+
+.counter-analog span.separator {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    width: 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+}
+
+.counter-analog span.part span.digit {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    width: 26px;
+    vertical-align: middle;
+    text-align: center;
+    text-shadow: none;
+    margin: 0;
+}

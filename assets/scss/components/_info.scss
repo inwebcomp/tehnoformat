@@ -1,0 +1,27 @@
+.block--info {
+    margin-top: 0;
+}
+
+.info {
+    background-image: url($img-path + "house.jpg");
+    background-size: 441px 373px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    min-height: 373px;
+    padding-top: $padding * 4;
+    box-sizing: border-box;
+}
+
+.info__title {
+    width: 410px;
+}
+
+.info__description {
+    font-size: 1.6rem;
+    color: $font-color-grey;
+    width: 340px;
+
+    p:first-child {
+        margin: 0;
+    }
+}

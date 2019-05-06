@@ -1,0 +1,74 @@
+	<div style="width: 100%;">
+            <!--[if mso]>
+            <table cellspacing="0" cellpadding="0" border="0" width="680" align="center">
+            <tr>
+            <td>
+            <![endif]-->
+
+            <!-- Email Header : BEGIN -->
+            <table cellspacing="0" cellpadding="0" border="0" bgcolor="#FFFFFF" style="max-width: 680px; width: 100%;">
+	            <tr>
+					<td style="width: 80%; padding:20px;">
+						<a href="{host}" target="_blank" style="text-decoration:none" alt="Clarks"><img src="{root}/files/mail-templates/invoice/logo.jpg" width="140" height="40" border="0" style="display: block;" /></a>
+					</td>
+					<td valign="middle" style="width: 20%; text-align: right; padding:20px; vertical-align: middle; font-family: freesans; color: #000000; line-height: 22px;">
+						<span style="font-size: 22px;">Счёт</span><br />
+						<span style="font-size: 11px; margin-top: 7px;">Дата: {date}</span>
+					</td>
+	            </tr>
+            </table>
+            <!-- Email Header : END -->
+            
+            <!-- Email Body : BEGIN -->
+            <table cellspacing="0" cellpadding="0" border="0" align="left" bgcolor="#ffffff" width="100%" style="max-width: 680px;">
+				<!-- 2 Even Columns : BEGIN -->
+                <tr>
+                    <td bgcolor="#ffffff" align="center" height="100%" valign="top" width="100%">
+                        <table border="0" cellpadding="0" cellspacing="0" align="left" width="100%">
+                            <tr>
+                                <td style="width: 50%; font-family: freesans; font-size: 14px; mso-height-rule: exactly; line-height: 20px; color: #000000; padding: 20px; font-family: freesans; line-height: 24px; text-align: left;">
+									<b>Имя, Фамилия:</b> {name}<br />
+									<b>Телефон:</b> {phone}<br />
+									<b>Email:</b> {email}
+								</td>
+								<td style="width: 50%; font-family: freesans; font-size: 14px; mso-height-rule: exactly; line-height: 20px; color: #000000; padding: 20px; vertical-align: middle; font-family: freesans; line-height: 24px; text-align: left;" valign="middle">
+									<b>Доставка:</b> {delivery_title}<br />
+									<b>Адрес доставки:</b> {address}<br />
+									<b>Метод оплаты:</b> {payment_title}
+								</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- 2 Even Columns : END -->
+
+
+				<tr>
+                    <td bgcolor="#ffffff" align="left" height="100%" valign="top" width="600px">
+                        <table cellpadding="0" cellspacing="0" align="left" width="600px">
+                            <tr>
+                                <td colspan="2" style="width: 490px; font-family: freesans; font-size: 14px; mso-height-rule: exactly; line-height: 20px; color: #000000; padding: 10px 0 10px 20px; box-sizing: border-box; font-weight: bold; border-bottom: 1px solid #dddddd;">Товар</td>
+								<td style="width: 100px; font-family: freesans; font-size: 14px; mso-height-rule: exactly; line-height: 20px; color: #000000; padding: 10px 0; box-sizing: border-box; font-weight: bold; border-bottom: 1px solid #dddddd;" align="center">Количество</td>
+								<td style="width: 80px; font-family: freesans; font-size: 14px; mso-height-rule: exactly; line-height: 20px; color: #000000; padding: 10px 20px 10px 0; box-sizing: border-box; font-weight: bold; border-bottom: 1px solid #dddddd;" align="right">Цена</td>
+                            </tr>
+							{products}
+							<!--<tr>
+								<td colspan="3" style="width: 590px; font-family: freesans; font-size: 14px; mso-height-rule: exactly; line-height: 20px; color: #000000; padding: 10px 0 10px 20px; box-sizing: border-box; border-bottom: 2px solid #000000;">
+									<span style="font-size: 14px; font-family: freesans; line-height: 18px; color: #000000;">Стоимость доставки</span>
+								</td>
+								<td style="width: 80px; font-family: freesans; font-size: 14px; mso-height-rule: exactly; line-height: 20px; color: #000000; padding: 10px 20px 10px 0; box-sizing: border-box; border-bottom: 2px solid #000000; white-space: nowrap;" align="right">{delivery_price}</td>
+                            </tr>-->
+							<tr>
+								<td colspan="3" style="width: 590px; font-family: freesans; font-size: 14px; mso-height-rule: exactly; line-height: 20px; color: #000000; padding: 10px 0 10px 20px; box-sizing: border-box; border-bottom: 1px solid #dddddd;">
+									<span style="font-size: 14px; font-family: freesans; line-height: 18px; color: #000000;">Итого к оплате</span>
+								</td>
+								<td style="width: 80px; font-family: freesans; font-size: 14px; mso-height-rule: exactly; line-height: 20px; color: #000000; padding: 10px 20px 10px 0; box-sizing: border-box; border-bottom: 1px solid #dddddd; white-space: nowrap;" align="right">{all_price}&nbsp;MDL</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+			</table>
+            <!-- Email Body : END -->
+          
+			<div style="text-align: center; width: 100%; margin-top: 30px; font-weight: bold;">Спасибо что выбрали Termostar!</div>
+    </div>

@@ -1,0 +1,42 @@
+.block--clients {
+    .subtitle {
+        width: 650px;
+
+        b, strong {
+            color: $accent-color;
+        }
+    }
+
+    .block__header__lines {
+        width: 300px;
+        height: $padding * 4;
+        top: 50%;
+    }
+}
+
+.clients {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: $padding * 2;
+    margin-top: $padding * 4 - 4;
+}
+
+.client {
+    padding: $padding / 2;
+    border: 1px dashed $border-color;
+    flex-basis: 25%;
+    box-sizing: border-box;
+
+    &:nth-last-child(2) {
+        grid-column: 2 / 3;
+    }
+
+    &:last-child {
+        grid-column: 3 / 4;
+    }
+}
+
+.client__image {
+    display: block;
+    margin: auto;
+}

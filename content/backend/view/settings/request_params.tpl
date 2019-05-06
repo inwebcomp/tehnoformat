@@ -1,0 +1,1 @@
+<input type="hidden" name="rqparams[object]" value="{%group_ID%}" />

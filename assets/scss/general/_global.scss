@@ -1,0 +1,25 @@
+a {
+	color: inherit;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.clear {
+	height: 0;
+	overflow: hidden;
+	font-size: 1px;
+	clear: both;
+	visibility: hidden;
+}
+
+template {
+	display: none;
+}
+
+.link {
+	transition: color $transition;
+
+	&:hover {
+		color: $font-color-accent;
+	}
+}

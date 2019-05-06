@@ -1,0 +1,9 @@
+@function remToPx($value) {
+    @return $value / 1rem * 10px * $font-scale;
+}
+
+@function bg($color) {
+    @if ($color == $primary-color) {
+        @return #ebf9fa;
+    }
+}

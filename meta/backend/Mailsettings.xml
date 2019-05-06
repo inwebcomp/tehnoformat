@@ -1,0 +1,23 @@
+<model name="Mailsettings">
+
+	<table name="Mailsettings" extends="Default">
+		<item name="type" type="VARCHAR" length="255" default="smtp" />
+		<item name="server" type="VARCHAR" length="255" />
+		<item name="login" type="VARCHAR" length="255" />
+		<item name="password" type="VARCHAR" length="255" />
+		<item name="ssl" type="BOOL" default="1" />
+		<item name="port" type="VARCHAR" length="255" default="465" />
+		<item name="name" type="VARCHAR" length="255" />
+	</table>
+
+	<form name="edit">
+		<item name="type" type="String" max_length="255" />
+		<item name="server" type="String" max_length="255" />
+		<item name="login" type="String" max_length="255" />
+		<item name="password" type="String" max_length="255" />
+		<item name="port" type="String" max_length="255" />
+		<item name="ssl" type="Bool" />
+		<item name="name" type="String" max_length="255" />
+	</form>
+
+</model>

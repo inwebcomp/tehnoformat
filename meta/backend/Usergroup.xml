@@ -1,0 +1,18 @@
+<model name="Usergroup">
+
+	<table name="Usergroup" extends="Default">
+		<item name="title" type="VARCHAR" length="32" multilang="1" />
+		<item name="name" type="VARCHAR" length="12" />
+	</table>
+
+	<form name="create" extends="Default">
+		<item name="title" type="String" max_length="128" required="1" />
+		<item name="name" type="String" max_length="12" />
+	</form>
+
+	<form name="edit" extends="Default">
+		<item name="title" type="String" max_length="128" required="1" />
+		<item name="name" type="String" max_length="12" />
+	</form>
+
+</model>

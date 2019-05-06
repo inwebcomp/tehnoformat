@@ -1,0 +1,94 @@
+.form {
+    .row + .row {
+        margin-top: $padding;
+    }
+}
+
+.form-control__input {
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    padding: $padding;
+    font-family: $font-family;
+    margin: 0;
+    border-radius: $border-radius;
+    border: none;
+    background-color: #FFF;
+
+    &::placeholder {
+        color: $font-color-grey;
+    }
+
+    &:focus {
+        outline: 1px dashed $primary-color;
+    }
+}
+
+
+.form-control {
+    position: relative;
+
+    &::after {
+        content: '!';
+        cursor: default;
+        position: absolute;
+        top: -7px;
+        right: -7px;
+        font-size: 12px;
+        line-height: 16px;
+        height: 16px;
+        width: 16px;
+        border-radius: 9px;
+        text-align: center;
+        color: #fff;
+        background-color: $error-color;
+        opacity: 0;
+        transition: opacity $transition;
+    }
+}
+
+.form-control--error {
+    &::after {
+        opacity: 1;
+    }
+}
+
+.form-control__input--textarea {
+    height: auto;
+    min-height: 50px;
+    resize: vertical;
+    display: block;
+}
+
+.form-control--file {
+    input {
+        display: none;
+    }
+    .icon {
+        margin-right: $padding;
+        vertical-align: text-bottom;
+    }
+}
+
+.form-control__input--file {
+    background-color: transparent;
+    color: #FFF;
+    border: 1px dashed #FFF;
+    padding: $padding $padding;
+    cursor: pointer;
+    height: 60px;
+}
+
+.form__message {
+    color: #FFF;
+    padding: $padding / 2;
+    border-radius: 3px;
+    text-align: center;
+}
+.form__message--success {
+    background-color: $success-color;
+}
+
+.form__message--error {
+    background-color: $error-color;
+}

@@ -1,0 +1,38 @@
+<model name="Admmenu">
+
+	<table name="Admmenu" extends="Default" tree="1">
+		<item name="parent_ID" type="INT" length="11" />
+		<item name="title" type="VARCHAR" multilang="1" length="255" />
+        <item name="controller" type="VARCHAR" length="255" />
+        <item name="action" type="VARCHAR" length="255" />
+		<item name="last_level" type="BOOL" default="0" />
+		<item name="color" type="VARCHAR" />
+		<item name="icon" type="VARCHAR" />
+		<item name="fast" type="BOOL" default="0" save_fast="1" />
+		
+		<fk name="parent_ID" table="Admmenu" recursive="1" column="ID" on_delete="CASCADE" on_update="CASCADE" />
+	</table>
+
+	<form name="create" extends="Default">
+		<item name="parent_ID" type="Int" required="1" />
+		<item name="title" type="String" max_length="255" />
+        <item name="controller" type="String" max_length="255" />
+        <item name="action" type="String" max_length="255" />
+		<item name="last_level" type="Bool" err_mess="" />
+		<item name="color" type="String" />
+		<item name="icon" type="String" />
+		<item name="fast" type="Bool" save_fast="1" err_mess="" />
+	</form>
+
+	<form name="edit" extends="Default">
+		<item name="parent_ID" type="Int" required="1" />
+		<item name="title" type="String" max_length="255" />
+        <item name="controller" type="String" max_length="255" />
+        <item name="action" type="String" max_length="255" />
+		<item name="last_level" type="Bool" err_mess="" />
+		<item name="color" type="String" />
+		<item name="icon" type="String" />
+		<item name="fast" type="Bool" save_fast="1" err_mess="" />
+	</form>
+
+</model>

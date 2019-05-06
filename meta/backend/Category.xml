@@ -1,0 +1,66 @@
+<model name="Category">
+	<table name="Category" extends="Default" tree="1">
+		<item name="parent_ID" type="INT" length="11" />
+		<item name="level" type="INT" />
+
+		<item name="title" type="VARCHAR" length="255" multilang="1" />
+		<item name="name" multilang="1" required="1" generate_from="title" type="VARCHAR" length="255" />
+		<item name="text" type="TEXT" multilang="1" />
+		<item name="text2" type="TEXT" multilang="1" />
+		<item name="base_image" type="VARCHAR" length="255" />
+
+		<item name="gallery_ID" type="INT" />
+
+		<item name="form_title" type="VARCHAR" length="255" multilang="1" />
+		<item name="form_text" type="TEXT" multilang="1" />
+		<item name="form_button_text" type="VARCHAR" length="255" multilang="1" />
+		<item name="form_button_type" type="INT" length="1" default="0" />
+
+		<item name="meta_title" multilang="1" type="VARCHAR" />
+		<item name="meta_keywords" multilang="1" type="TEXT" />
+		<item name="meta_description" multilang="1" type="TEXT" />
+
+		<fk name="gallery" table="Gallery" column="ID" />
+		<fk name="parent_ID" table="Category" recursive="1" column="ID" on_delete="CASCADE" on_update="CASCADE" />
+	</table>
+
+	<form name="create" extends="Default">
+		<item name="parent_ID" type="Int" required="1" />
+
+		<item name="title" type="String" required="1" />
+		<item name="name" type="String" required="1" seo="title" length="255" />
+		<item name="text" type="Html" />
+		<item name="text2" type="Html" />
+
+		<item name="gallery_ID" type="Int" />
+
+		<item name="form_title" type="String" />
+		<item name="form_text" type="String" />
+		<item name="form_button_text" type="String" />
+		<item name="form_button_type" type="Int" />
+
+		<item name="meta_title" type="String" />
+		<item name="meta_keywords" type="String" />
+		<item name="meta_description" type="String" />
+	</form>
+
+	<form name="edit" extends="Default">
+		<item name="parent_ID" type="Int" required="1" />
+
+		<item name="title" type="String" required="1" />
+		<item name="name" type="String" required="1" seo="title" length="255" />
+		<item name="text" type="Html" />
+		<item name="text2" type="Html" />
+
+		<item name="gallery_ID" type="Int" />
+
+		<item name="form_title" type="String" />
+		<item name="form_text" type="String" />
+		<item name="form_button_text" type="String" />
+		<item name="form_button_type" type="Int" />
+
+		<item name="meta_title" type="String" />
+		<item name="meta_keywords" type="String" />
+		<item name="meta_description" type="String" />
+	</form>
+</model>

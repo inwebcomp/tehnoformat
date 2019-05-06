@@ -1,0 +1,46 @@
+/*
+ * jQuery FlexSlider v1.0 (Release)
+ * http://flex.madebymufffin.com
+ *
+ * Copyright 2011, Tyler Smith
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+
+/* FlexSlider Necessary Styles
+*********************************/ 
+.flexslider {height:505px;display:block;width: 100%; margin: 0; padding: 0;}
+.flexslider .slides { list-style:none; margin:0; padding:0; }
+.flexslider .slides li {display: none;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides .image {width:100%; background-size:cover;background-repeat:no-repeat; background-position:center center;display: block; height:500px;margin: 0 auto;border-bottom:5px solid #E64B3C;}
+
+
+/* FlexSlider Default Theme
+*********************************/
+.flexslider {background: #fff; position: relative; }
+.flexslider .slides  li {position: relative;}
+/* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
+.flexslider-container {position: relative;}
+
+/* Caption style */
+.flex-caption { width:1000px; display:block; margin:0 auto; position:relative; text-align:right; }
+.flex-caption .container { position:relative; z-index:9; text-align:left; margin-top:160px; margin-right:150px; display:inline-block; }
+.flex-caption h1 { background-color:#E64B3C; padding:20px 30px; margin:0; display:inline-block; color:#FFF; }
+.flex-caption h3 { background-color:#555; padding:10px 30px; margin:0; display:inline-block; color:#FFF; font-size:18px; }
+.flex-caption .more { background-color:#C4C4C4; padding:10px 15px; margin:20px 10px 0 0; display:inline-block; color:#FFF; font-size:13px; text-transform:uppercase; cursor:pointer; text-decoration:none; font-weight:500; border-radius:3px; }
+.flex-caption .orderButton { background-color:#E64B3C; padding:10px 30px 10px 15px; margin:20px 10px 0 0; display:inline-block; color:#FFF; font-size:13px; text-transform:uppercase; cursor:pointer; text-decoration:none; font-weight:500; border-radius:3px; background-image:url(/img/content/white_right_arrow.png); background-repeat:no-repeat; background-position:88px; }
+
+/* Direction Nav */
+.flex-direction-nav {height:105px;padding:0;width:1000px; display:block; margin:0 auto; list-style:none; position:relative; margin-top:-481px;}
+.flex-direction-nav li {display:inline-block;vertical-align:top;}
+.flex-direction-nav li a {width: 58px; height: 105px; margin: 202px 0 0 0; display: block; cursor: pointer; text-indent: -9999px;} /* set negative margin-top equal to half the height on the directional-nav for perfect vertical centering */
+.flex-direction-nav li a.next {background: url(/img/content/slider_gray_arrow_right.png) no-repeat 0 0;margin:-105px 0 0 942px;}
+.flex-direction-nav li a.prev {background: url(/img/content/slider_gray_arrow_left.png) no-repeat 0 0;}
+
+/* Control Nav */
+.flex-control-nav {padding:0;width:1000px; display:block; margin:-40px auto 0 auto; position:relative; text-align:center; } /* set negative margin-left equal to half the width on the control-nav for perfect centering */
+.flex-control-nav li { display:inline-block; margin:0 auto;}
+.flex-control-nav li:first-child {margin: 0;}
+.flex-control-nav li a {width: 17px; height: 17px; display: block; background: url(/img/content/slider-pagination.png) no-repeat -34px 0; cursor: pointer; text-indent: -9999px;}
+.flex-control-nav li a:hover {background-position:-17px 0;}
+.flex-control-nav li a.active {background-position:0; cursor: default;}

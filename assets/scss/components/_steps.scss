@@ -1,0 +1,63 @@
+.steps {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: $padding * 3;
+    margin-top: $padding * 3;
+}
+
+.step {
+    background-color: bg($primary-color);
+    border-radius: $border-radius;
+    padding: $padding * 1.5 $padding $padding $padding;
+    position: relative;
+
+    &:last-child {
+        .step__icon {
+            &::after {
+                display: none;
+            }
+        }
+    }
+}
+
+.step__title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: $padding / 2;
+}
+
+.step__text {
+    font-size: 1.6rem;
+    padding-right: 35px;
+
+    p {
+        margin: 0;
+    }
+}
+
+.step__icon {
+    width: 70px;
+    height: 70px;
+    padding: 15px;
+    border-radius: 35px;
+    background-color: #FFF;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    box-sizing: border-box;
+    margin-top: -35px;
+    margin-right: -35px;
+
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 24px;
+        right: -9px;
+        height: 18px;
+        background-size: cover;
+        width: 10px;
+        margin: 0 2px -1px 0;
+        background-image: url($img-path + "arrow-right.svg");
+    }
+}

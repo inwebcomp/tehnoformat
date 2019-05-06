@@ -1,0 +1,33 @@
+<model name="Rights">
+
+	<table name="Rights">
+		<item name="ID" type="INT" length="11" />
+		<item name="name" type="VARCHAR" length="255" required="1" />
+		<item name="title" multilang="1" type="VARCHAR" />
+		<item name="controller" type="VARCHAR" length="255" />
+		<item name="method" type="VARCHAR" length="255" />
+		<item name="allow" type="BOOL" default="0" />
+		<item name="group_ID" type="INT" required="1" />
+	</table>
+
+	<form name="create">
+		<item name="ID" type="Int" max_length="11" />
+		<item name="name" type="String" max_length="255" required="1" />
+		<item name="title" type="String" />
+		<item name="controller" type="String" max_length="255" />
+		<item name="method" type="String" max_length="255" />
+		<item name="allow" type="Bool" />
+		<item name="group_ID" type="Int" required="1" />
+	</form>
+
+	<form name="edit">
+		<item name="ID" type="String" max_length="11" />
+		<item name="name" type="String" max_length="255" />
+		<item name="title" type="String" />
+		<item name="controller" type="String" max_length="255" />
+		<item name="method" type="String" max_length="255" />
+		<item name="allow" type="Int" />
+		<item name="group_ID" type="Int" />
+	</form>
+
+</model>

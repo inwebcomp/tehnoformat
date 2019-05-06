@@ -1,0 +1,42 @@
+<model name="Admmenu">
+
+	<table name="Admmenu" extends="Default">
+		<item name="name" type="VARCHAR" length="255" />
+		<item name="width" type="INT" length="11" />
+		<item name="height" type="INT" length="11" />
+		<item name="bg_color" type="VARCHAR" length="255" description="Со знаком #" />
+		<item name="fill_type" type="VARCHAR" length="255" />
+		<item name="retina" type="INT" length="1" />
+		<item name="watermark" type="INT" length="1" />
+		<item name="padding" type="VARCHAR" length="255" description="Значение указывается в пикселях (250, -250). Также можно указать в процентах (10%, -10%). Разделение верх, низ, право, лево осуществляется пробелом" />
+		<item name="model" type="VARCHAR" length="255" />
+		<item name="quality" type="INT" />
+	</table>
+
+	<form name="create" extends="Default">
+		<item name="name" type="String" required="1" />
+		<item name="width" type="Int" />
+		<item name="height" type="Int" />
+		<item name="bg_color" type="String" default="FFFFFF" />
+		<item name="fill_type" type="String" required="1" default="cram" />
+		<item name="retina" type="Bool" />
+		<item name="watermark" type="Bool" />
+		<item name="padding" type="String" />
+		<item name="model" type="String" required="1" />
+		<item name="quality" type="Int" />
+	</form>
+
+	<form name="edit" extends="Default">
+		<item name="name" type="String" required="1" />
+		<item name="width" type="Int" />
+		<item name="height" type="Int" />
+		<item name="bg_color" type="String" default="FFFFFF" />
+		<item name="fill_type" type="String" required="1" default="cram" />
+		<item name="retina" type="Bool" />
+		<item name="watermark" type="Bool" />
+		<item name="padding" type="String" />
+		<item name="model" type="String" required="1" />
+		<item name="quality" type="Int" />
+	</form>
+
+</model>

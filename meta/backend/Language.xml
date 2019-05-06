@@ -1,0 +1,26 @@
+<model name="Language">
+
+	<table name="Language">
+		<item name="ID" type="INT" length="11" key="primary" auto_increment="1" />
+		<item name="title" type="VARCHAR" length="255" unique="1" />
+		<item name="encoding" type="VARCHAR" length="255" />
+		<item name="name" type="VARCHAR" length="2" unique="1" />
+		<item name="pos" type="INT" length="11" default="0" save_fast="1" />
+	</table>
+
+	<form name="create">
+		<item name="title" type="String" min_length="3" required="1" err_mess="Заголовок должен состоять минимум из 3 символов" />
+		<item name="encoding" type="String" max_length="255" />
+		<item name="name" type="String" min_length="2" max_length="3" required="1" err_mess="Код языка должен состоять из 2 или 3 символов" />
+		<item name="pos" type="Int" />
+	</form>
+
+	<form name="edit">
+		<item name="ID" type="Int" required="1" save_fast="1" />
+		<item name="title" type="String" min_length="1" required="1" err_mess="Заголовок должен состоять минимум из 3 символов" />
+		<item name="encoding" type="String" max_length="255" />
+		<item name="name" type="String" min_length="2" max_length="3" required="1" err_mess="Код языка должен состоять из 2 или 3 символов" />
+		<item name="pos" type="Int" save_fast="1" />
+	</form>
+
+</model>

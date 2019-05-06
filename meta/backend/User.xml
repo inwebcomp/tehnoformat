@@ -1,0 +1,60 @@
+<model name="User">
+
+	<table name="User" extends="Default">
+		<item name="login" type="VARCHAR" length="128" />
+		<item name="email" type="VARCHAR" length="128" />
+		<item name="password" type="VARCHAR" length="32" />
+		<item name="type" type="VARCHAR" length="255" default="user" />
+		<item name="status" type="INT" length="1" default="1" />
+		<item name="network" type="VARCHAR" length="255" />
+		<item name="network_ID" type="VARCHAR" length="255" />
+		
+		<fk name="usergroup" table="Usergroup" column="name" on_delete="CASCADE" on_update="CASCADE" />
+	</table>
+
+	<form name="create" extends="Default">
+		<item name="login" type="String" max_length="128" />
+		<item name="email" type="Email" max_length="128" required="1" unique="1" err_mess="Пользователь с таким электронным адресом уже существует" />
+		<item name="password" crypt="1" type="String" required="1" err_mess="Не введён пароль" />
+		<item name="type" type="String" max_length="32" default="user" />
+		<item name="status" type="Int" max_length="1" default="1" />
+	</form>
+
+	<form name="edit" extends="Default">
+		<item name="login" type="String" max_length="128" />
+		<item name="email" type="Email" max_length="128" required="1" unique="1" err_mess="Пользователь с таким электронным адресом уже существует" />
+		<item name="password" crypt="1" type="String" err_mess="Не введён пароль" />
+		<item name="type" type="String" max_length="32" default="user" />
+		<item name="status" type="Int" max_length="1" default="1" />
+	</form>
+	
+	<form name="create_social" extends="Default">
+		<item name="email" type="Email" max_length="128" required="1" unique="1" err_mess="Пользователь с таким электронным адресом уже существует" />
+		<item name="type" type="String" max_length="32" default="user" />
+		<item name="status" type="Int" max_length="1" default="1" />
+		<item name="network" type="String" required="1" />
+		<item name="network_ID" type="String" required="1" />
+	</form>
+
+	<form name="register" extends="Default">
+		<item name="password" crypt="1" type="String" required="1" err_mess="Введите пароль" />	
+		<item name="email" type="Email" max_length="128" required="1" unique="1" err_mess="Пользователь с таким электронным адресом уже существует" />
+	</form>
+	
+	<form name="profile_edit">
+		<item name="email" type="Email" max_length="128" unique="1" err_mess="Пользователь с таким электронным адресом уже существует" />
+		<item name="fullname" type="String" max_length="255" />
+		<item name="phone" type="String" max_length="255" />
+		<item name="city" type="String" max_length="255" />
+		<item name="address" type="String" max_length="255" />
+	</form>
+	
+	<form name="change_password">
+		<item name="password" crypt="1" type="String" required="1" err_mess="Не введён пароль" />
+	</form>
+
+	<form name="change_auth_data">
+		<item name="email" type="String" required="1" max_length="255" />
+	</form>
+
+</model>

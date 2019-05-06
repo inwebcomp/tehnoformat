@@ -1,0 +1,1 @@
+{%controller statistics/dashboard%}

@@ -1,0 +1,21 @@
+<model name="Routing">
+
+	<table name="Routing" extends="Default">
+		<item name="ID" type="INT" length="11" key="primary" auto_increment="1" />
+		<item name="name" type="VARCHAR" length="255" unique="1" />
+		<item name="params" type="TEXT" default="NULL" />
+		<item name="sect" type="VARCHAR" length="255" />
+	</table>
+
+	<form name="create" extends="Default">
+		<item name="name" type="LiteralString" required="1" unique="1" err_mess="Поле должно состоять только из латинских букв и быть уникальным" />
+		<item name="sect" type="String" required="1" />
+	</form>
+
+	<form name="edit" extends="Default">
+		<item name="ID" type="Int" required="1" />
+		<item name="name" type="LiteralString" required="1" unique="1" err_mess="Поле должно состоять только из латинских букв и быть уникальным" />
+		<item name="sect" type="String" required="1" />
+	</form>
+
+</model>

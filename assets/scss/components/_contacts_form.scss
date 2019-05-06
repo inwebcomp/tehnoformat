@@ -1,0 +1,140 @@
+.block--contacts-form {
+    background-image: url($img-path + "contact-form-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 459px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+
+    .title {
+        margin-bottom: $padding * 2;
+    }
+
+    .subtitle {
+        color: #FFF;
+    }
+}
+
+.contacts-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contacts-form__info {
+    max-width: 500px;
+}
+
+.contacts-form__form {
+    max-width: 560px;
+}
+
+.contacts-from__row--buttons {
+    grid-template-columns: auto min-content;
+}
+
+.contacts-form__info__line {
+    display: flex;
+    align-items: center;
+    margin-bottom: $padding * 4;
+    position: relative;
+
+    &:last-child {
+        flex-direction: row-reverse;
+        margin-bottom: 0;
+        text-align: right;
+
+        .contacts-form__icon {
+            margin-right: 0;
+            margin-left: $padding * 2;
+        }
+
+        &::before {
+            border-right: 1px dashed #FFF;
+            border-bottom: none;
+            border-left: none;
+            width: 0;
+            height: $padding * 2;
+            bottom: 100%;
+            top: auto;
+            right: 35px;
+            left: auto;
+        }
+    }
+
+    &::before {
+        content: '';
+        display: block;
+        border: 1px dashed #FFF;
+        border-top: none;
+        border-right: none;
+        position: absolute;
+        width: calc(100% - 72px);
+        height: $padding * 2;
+        top: 100%;
+        left: 35px;
+        z-index: 0;
+    }
+}
+
+.contacts-form__icon {
+    margin-right: $padding * 2;
+}
+
+
+
+
+.popup-container {
+    .title {
+        width: 100%;
+        text-align: center;
+        margin-bottom: $padding;
+    }
+
+    .contacts-form {
+        display: block;
+        max-width: 400px;
+        margin: 0 auto;
+
+        .button {
+            width: 100%;
+        }
+    }
+
+    .contacts-form__info {
+        text-align: center;
+        margin: 0 auto $padding * 2;
+    }
+
+    .contacts-form__info__line {
+        flex-direction: row;
+        text-align: left;
+
+        .contacts-form__icon {
+            margin-right: $padding * 2;
+            margin-left: 0;
+        }
+    }
+
+    .grid--cols-2 {
+        grid-template-columns: auto;
+    }
+
+    .form-control__input:not(.form-control__input--file) {
+        background-color: $input-color;
+
+        &:focus {
+            background-color: #FFF;
+        }
+    }
+
+    .form-control__input--file {
+        color: $font-color-grey;
+        border-color: $border-color;
+    }
+
+    .icon--clip {
+        background-image: url($icon-path + "clip.svg");
+    }
+}

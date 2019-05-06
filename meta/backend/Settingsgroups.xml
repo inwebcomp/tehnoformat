@@ -1,0 +1,15 @@
+<model name="Settingsgroups">
+
+	<table name="Settingsgroups" extends="Default">
+		<item name="title" type="VARCHAR" length="32" multilang="1" />
+	</table>
+
+	<form name="create" extends="Default">
+		<item name="title" type="String" max_length="128" required="1" />
+	</form>
+
+	<form name="edit" extends="Default">
+		<item name="title" type="String" max_length="128" required="1" />
+	</form>
+
+</model>

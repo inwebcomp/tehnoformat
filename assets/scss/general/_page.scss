@@ -1,0 +1,92 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    font-size: 10px * $font-scale;
+}
+
+body {
+    font-size: $font-size;
+    overflow-x: hidden;
+    font-family: $font-family;
+    line-height: $line-height;
+    min-width: $content-min-width;
+    color: $font-color;
+    background-color: $backface-color;
+}
+
+#app {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#content {
+    margin-bottom: auto;
+}
+
+.container {
+    width: 100%;
+    max-width: $content-width;
+    margin: 0 auto;
+    position: relative;
+}
+
+.block {
+    padding-top: $padding * 5;
+    margin-top: $padding * 5;
+}
+
+.block__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .circle-icon {
+        margin-left: auto;
+        margin-right: $padding * 2.5;
+    }
+}
+
+.block__header__lines {
+    width: 600px;
+    height: $padding * 2;
+    border: 1px dashed $border-color;
+    border-top: none;
+    position: absolute;
+    right: 50%;
+    top: 100%;
+    z-index: -1;
+}
+
+.title {
+    font-size: 3.6rem;
+    font-weight: bold;
+    margin-top: -0.2em;
+    display: block;
+    width: fit-content;
+
+    p {
+        margin: 0;
+    }
+
+    b, strong {
+        color: $primary-color;
+    }
+}
+
+.subtitle {
+    font-size: 1.8rem;
+    color: $font-color-grey;
+    font-weight: bold;
+
+    p {
+        margin: 0;
+    }
+
+    b, strong {
+        color: $primary-color;
+    }
+}

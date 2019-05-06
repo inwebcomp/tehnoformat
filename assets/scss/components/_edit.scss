@@ -1,0 +1,17 @@
+.save-button {
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    background-color: #2db86e;
+    border-radius: 24px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+    padding: 0 16px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.save-button .fa {
+    margin-right: 6px;
+}

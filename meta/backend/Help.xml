@@ -1,0 +1,18 @@
+<model name="Help">
+
+	<table name="Help" extends="Default">
+		<item name="title" type="VARCHAR" length="255" unique="1" multilang="1" />
+		<item name="description" type="TEXT" multilang="1" />
+	</table>
+
+	<form name="create" extends="Default">
+		<item name="title" type="String" min_length="3" required="1" />
+		<item name="description" type="Html" />
+	</form>
+
+	<form name="edit" extends="Default">
+		<item name="title" type="String" min_length="3" required="1" />
+		<item name="description" type="Html" />
+	</form>
+
+</model>

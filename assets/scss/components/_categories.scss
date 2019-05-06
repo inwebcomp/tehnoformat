@@ -1,0 +1,135 @@
+.block--categories {
+    margin-top: 0;
+
+    .subtitle {
+        max-width: 320px;
+    }
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-top: $padding * 3;
+}
+
+.category {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    border-radius: $border-radius;
+    overflow: hidden;
+}
+
+.category__content {
+    background-image: linear-gradient(180deg, rgba(55, 87, 115, 0) 40%, #375773 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: $padding;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    transition: background-color $transition;
+
+    &:hover {
+        background-color: transparentize(#375773, 0.8);
+    }
+}
+
+.category__title {
+    font-size: 2.4rem;
+    color: $font-color-light;
+    font-weight: bold;
+    line-height: initial;
+    padding-right: $padding;
+    width: min-content;
+}
+
+.category__image {
+    display: block;
+}
+
+
+
+.categories-list__header {
+    padding: $padding / 2 $padding;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: $header-first-line-color;
+    border-radius: $border-radius;
+    margin-bottom: $padding / 2;
+    color: #FFF;
+
+    .icon {
+        margin-right: $padding;
+    }
+}
+
+.categories-list__item {
+    display: block;
+    padding: $padding / 2 $padding;
+    border: 1px dashed $border-color;
+    border-radius: $border-radius;
+    margin-bottom: $padding / 2;
+    transition: background-color $transition;
+
+    &:hover {
+        background-color: bg($primary-color);
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.categories-list__item--active {
+    font-weight: bold;
+}
+
+.float-categories--top {
+    .categories-list {
+        width: 270px;
+        position: fixed;
+        top: $padding + $header-height * 0.8;
+    }
+}
+
+.float-categories--bottom {
+    .categories-list {
+        width: 270px;
+        position: fixed;
+        bottom: $padding;
+    }
+}
+
+.category__gallery {
+    .gallery-images__image__img {
+        height: 168px;
+        width: auto;
+    }
+}
+
+.category__gallery__all {
+    margin: $padding auto 0;
+    text-align: center;
+    display: block;
+    width: fit-content;
+    color: $primary-color;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+
+.page--category {
+    .text-block {
+        margin-bottom: $padding * 4;
+    }
+}

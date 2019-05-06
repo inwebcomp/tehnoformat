@@ -1,0 +1,29 @@
+<model name="Contacts">
+	<table name="Contacts" extends="Default">
+		<item name="title" type="VARCHAR" length="255" multilang="1" />
+		<item name="address" type="VARCHAR" length="255" multilang="1" />
+		<item name="phone" type="VARCHAR" length="255" />
+		<item name="phone2" type="VARCHAR" length="255" />
+		<item name="email" type="VARCHAR" length="255" />
+		<item name="email2" type="VARCHAR" length="255" />
+		<item name="base_image" type="VARCHAR" length="255" />
+	</table>
+
+	<form name="create" extends="Default">
+		<item name="title" type="String" required="1" />
+		<item name="address" type="String" max_lenght="255" />
+		<item name="phone" type="String" max_lenght="255" />
+		<item name="phone2" type="String" max_lenght="255" />
+		<item name="email" type="Email" max_lenght="255" />
+		<item name="email2" type="Email" max_lenght="255" />
+	</form>
+
+	<form name="edit" extends="Default">
+		<item name="title" type="String" required="1" />
+		<item name="address" type="String" max_lenght="255" />
+		<item name="phone" type="String" max_lenght="255" />
+		<item name="phone2" type="String" max_lenght="255" />
+		<item name="email" type="Email" max_lenght="255" />
+		<item name="email2" type="Email" max_lenght="255" />
+	</form>
+</model>

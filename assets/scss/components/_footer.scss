@@ -1,0 +1,23 @@
+.footer {
+    background-color: $footer-color;
+    font-size: 1.6rem;
+    color: $font-color-grey;
+    //margin-top: $padding * 4;
+
+    .container {
+        height: $footer-height;
+        align-items: center;
+    }
+}
+
+.page--index {
+    .footer {
+        margin-top: 0;
+    }
+}
+
+.footer__copyrights {
+    p {
+        margin: 0;
+    }
+}

@@ -1,0 +1,1 @@
+{%if config_save_and_back_button == "1"%}<button type="submit" name="submit_and_back" class="btn btn-success save and_back animated effect-touch" onclick="$(this).attr('value', 1)">{%lang Сохранить и выйти%}</button>{%endif%}

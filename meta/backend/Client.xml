@@ -1,0 +1,14 @@
+<model name="Client">
+	<table name="Client" extends="Default">
+		<item name="title" type="VARCHAR" length="255" />
+		<item name="base_image" type="VARCHAR" length="255" />
+	</table>
+
+	<form name="create" extends="Default">
+		<item name="title" type="String" required="1" />
+	</form>
+
+	<form name="edit" extends="Default">
+		<item name="title" type="String" required="1" />
+	</form>
+</model>

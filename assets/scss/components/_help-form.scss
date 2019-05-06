@@ -1,0 +1,16 @@
+.help-form {
+    padding: $padding * 4;
+    background-image: url($img-path + "man-bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: $padding * 4;
+}
+
+.help-form__title {
+    margin-bottom: $padding * 2;
+}
+
+.help-form__text {
+    margin-bottom: $padding * 2;
+}

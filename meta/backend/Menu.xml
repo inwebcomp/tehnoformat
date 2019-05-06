@@ -1,0 +1,48 @@
+<model name="Menu">
+
+	<table name="Menu" extends="Default" tree="1">
+		<item name="parent_ID" type="INT" length="11" />
+		<item name="category_ID" type="INT" length="11" />
+		<item name="title" multilang="1" required="1" type="VARCHAR" length="255" />
+		<item name="name" multilang="1" required="1" generate_from="title" type="VARCHAR" length="255" />
+		<item name="type" type="VARCHAR" length="255" />
+		<item name="page" type="VARCHAR" length="255" />
+		<item name="href" type="TEXT" multilang="1" />
+		<item name="last_level" type="BOOL" default="0" />
+		<item name="auto_title" type="BOOL" default="0" description="Генерировать заголовок на основе введённых данных" />
+		<item name="auto_fill" type="BOOL" default="0" description="Автоматически выводить подкатегории" />
+		<item name="is_link" type="BOOL" default="1" />
+
+		<fk name="parent_ID" table="Menu" recursive="1" column="ID" on_delete="CASCADE" on_update="CASCADE" />
+		<fk name="pages" table="Pages" column="ID" on_delete="CASCADE" on_update="CASCADE" />
+	</table>
+
+	<form name="create" extends="Default">
+		<item name="parent_ID" type="Int" required="1" />
+		<item name="category_ID" type="Int" />
+		<item name="title" type="String" max_length="255" multilang="1" required="1" />
+		<item name="name" type="String" required="1" max_length="255" seo="title" />
+		<item name="type" type="String" max_length="255" />
+		<item name="page" type="String" max_length="255" />
+		<item name="href" type="String" multilang="1" />
+		<item name="last_level" type="Bool" />
+		<item name="auto_title" type="Bool" />
+		<item name="auto_fill" type="Bool" />
+		<item name="is_link" type="Bool" />
+	</form>
+
+	<form name="edit" extends="Default">
+		<item name="parent_ID" type="Int" required="1" />
+		<item name="category_ID" type="Int" />
+		<item name="title" type="String" max_length="255" multilang="1" required="1" />
+		<item name="name" type="String" required="1" max_length="255" seo="title" />
+		<item name="type" type="String" max_length="255" />
+		<item name="page" type="String" max_length="255" />
+		<item name="href" type="String" multilang="1" />
+		<item name="last_level" type="Bool" />
+		<item name="auto_title" type="Bool" />
+		<item name="auto_fill" type="Bool" />
+		<item name="is_link" type="Bool" />
+	</form>
+
+</model>

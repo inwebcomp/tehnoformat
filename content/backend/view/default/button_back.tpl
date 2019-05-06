@@ -1,0 +1,1 @@
+<a href="/backend/{%language_name%}/index/link/{%controllerName%}/items/{%if _object_back_value !== 0%}{%if _object_back_value !== ""%}{%_object_back_value%}{%endif%}{%endif%}" class="animated"><button type="button" class="btn btn-default to_list animated effect-touch">{%lang Назад%}</button></a>

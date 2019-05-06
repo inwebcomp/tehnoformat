@@ -1,0 +1,21 @@
+<model name="Visits">
+
+	<table name="Visits" extends="Default">
+		<item name="ip" type="VARCHAR" length="255" />
+		<item name="browser" type="VARCHAR" length="255" />
+		<item name="user_agent" type="TEXT" />
+	</table>
+
+	<form name="create" extends="Default">
+		<item name="ip" type="String" />
+		<item name="browser" type="String" />
+		<item name="user_agent" type="String" />
+	</form>
+
+	<form name="edit" extends="Default">
+		<item name="ip" type="String" />
+		<item name="browser" type="String" />
+		<item name="user_agent" type="String" />
+	</form>
+
+</model>

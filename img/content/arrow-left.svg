@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 15" width="8" height="15">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #007dc4 } 
+	</style>
+	<g id="галерея">
+		<g id="влево">
+			<path id="Фигура 2" class="shp0" d="M8,15v-14l-8,7z" />
+		</g>
+	</g>
+</svg>

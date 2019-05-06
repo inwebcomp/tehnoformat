@@ -1,0 +1,8 @@
+<model name="Forms">
+	<form name="contact">
+		<item name="name" type="String" max_length="255" required="1" />
+		<item name="phone" type="String" max_length="255" />
+		<item name="email" type="String" max_length="255" />
+		<item name="message" type="String" max_length="2000" />
+	</form>
+</model>

@@ -1,0 +1,1 @@
+{%includeview similar_items%}

@@ -1,0 +1,33 @@
+<model name="Currency">
+
+	<table name="Currency" extends="Default">
+		<item name="title" type="VARCHAR" length="255" multilang="1" />
+		<item name="name" type="VARCHAR" length="255" unique="1" />
+		<item name="symbol" type="VARCHAR" length="255" multilang="1" />
+		<item name="round" type="INT" length="11" default="0" />
+		<item name="display_type" type="INT" length="11" default="1" />
+		<item name="space" type="BOOL" length="1" default="0" />
+		<item name="def" type="BOOL" length="1" default="0" />
+	</table>
+
+	<form name="create" extends="Default">
+		<item name="title" type="String" max_length="255" required="1" />
+		<item name="name" type="String" max_length="255" required="1" />
+		<item name="symbol" type="String" max_length="255" required="1" />
+		<item name="round" type="Int" max_length="11"/>
+		<item name="display_type" type="Int" max_length="11" />
+		<item name="space" type="Bool" />
+		<item name="def" type="Bool" />
+	</form>
+
+	<form name="edit" extends="Default">
+		<item name="title" type="String" max_length="255" required="1" />
+		<item name="name" type="String" max_length="255" required="1" />
+		<item name="symbol" type="String" max_length="255" required="1" />
+		<item name="round" type="Int" max_length="11"/>
+		<item name="display_type" type="Int" max_length="11" />
+		<item name="space" type="Bool" save_fast="1" />
+		<item name="def" type="Bool" save_fast="1" />
+	</form>
+
+</model>

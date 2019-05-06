@@ -1,0 +1,1 @@
+<button type="submit" class="btn btn-success save animated effect-touch">{%lang Сохранить%}</button>

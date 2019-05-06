@@ -1,0 +1,24 @@
+<model name="Mailtemplates">
+
+	<table name="Mailtemplates" extends="Default">
+		<item name="title" type="VARCHAR" length="255" multilang="1" />
+		<item name="name" type="VARCHAR" length="255" unique="1" />
+		<item name="subject" type="TEXT" multilang="1" />
+		<item name="text" type="TEXT" multilang="1" />
+	</table>
+
+	<form name="create" extends="Default">
+		<item name="title" type="String" required="1" />
+		<item name="name" type="String" seo="title" required="1" />
+		<item name="subject" type="String" required="1" />
+		<item name="text" type="Html" required="1" />
+	</form>
+
+	<form name="edit" extends="Default">
+		<item name="title" type="String" required="1" />
+		<item name="name" type="String" seo="title" required="1" />
+		<item name="subject" type="String" required="1" />
+		<item name="text" type="Html" required="1" />
+	</form>
+
+</model>

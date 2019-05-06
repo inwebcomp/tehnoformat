@@ -1,0 +1,24 @@
+<model name="Mail">
+
+	<table name="Mail" extends="Default">
+		<item name="read" type="BOOL" default="0" />
+		<item name="subject" type="TEXT" />
+		<item name="text" type="TEXT" />
+		<item name="from" type="TEXT" />
+		<item name="to" type="TEXT" />
+	</table>
+
+	<form name="create" extends="Default">
+		<item name="read" type="Bool" />
+		<item name="subject" type="String" />
+		<item name="text" type="Html" />
+		<item name="from" type="String" />
+		<item name="to" type="String" />
+	</form>
+
+	<form name="edit" extends="Default">
+		<item name="read" type="Bool" />
+		<item name="text" type="Html" />
+	</form>
+
+</model>

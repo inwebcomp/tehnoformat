@@ -1,0 +1,12 @@
+$padding: 16px;
+
+$content-width: 1170px;
+$content-min-width: 1170px + $padding * 2;
+
+
+// Components
+$header-first-line-height: 40px;
+$header-height: 100px !default;
+$footer-height: $header-first-line-height;
+
+$border-radius: 3px;

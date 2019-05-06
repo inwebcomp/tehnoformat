@@ -1,0 +1,5 @@
+.printBlock { display:block; position:absolute; z-index:999999; position:absolute; top:0; left:0; }
+#json { width:100%; height:100%; background-color:#FFF; display:block; position:absolute; top:0; left:0; }
+* { color:#000; background-image:none; background-color:none; }
+input { display:none; }
+img { display:none; }
