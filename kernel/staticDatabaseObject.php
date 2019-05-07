@@ -962,11 +962,11 @@ abstract class StaticDatabaseObject extends Model
             self::$tables = array();
 
             while ($row = Database::fetch($result)) {
-                self::$tables[] = array_shift($row);
+                self::$tables[] = strtolower(array_shift($row));
             }
         }
 
-        return (in_array($table . '_ml', self::$tables));
+        return (in_array(strtolower($table . '_ml'), self::$tables));
     }
 	
 	public static function GetObjectByColumn($modelName, $columnName, $value)
