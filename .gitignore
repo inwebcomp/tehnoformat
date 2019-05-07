@@ -16,3 +16,8 @@
 
 #/img/images/
 #/files/**/
+node_modules
+vendor
+composer.lock
+package-lock.json
+error_log.txt

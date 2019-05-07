@@ -2,6 +2,10 @@
     font-size: 1.6rem;
     font-weight: 500;
     height: $header-first-line-height + $header-height;
+
+    @include media-max(800px) {
+        display: none;
+    }
 }
 
 .header__info {

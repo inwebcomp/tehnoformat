@@ -11,7 +11,7 @@ body {
     overflow-x: hidden;
     font-family: $font-family;
     line-height: $line-height;
-    min-width: $content-min-width;
+    min-width: 320px;
     color: $font-color;
     background-color: $backface-color;
 }

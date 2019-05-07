@@ -1,4 +1,6 @@
-let mix = require('laravel-mix')
+let mix = require('laravel-mix');
+
+mix.disableSuccessNotifications();
 
 /*
  |--------------------------------------------------------------------------
@@ -13,8 +15,23 @@ let mix = require('laravel-mix')
 
 mix.js('assets/js/app.js', 'jslib/')
    .sass('assets/scss/app.scss', 'css/')
-   .copyDirectory('assets/fonts', 'css/fonts')
+   .browserSync({
+      proxy: 'https://localhost/',
+      files: ['css/app.css'],
+      https: false,
+      host: 'localhost',
+   })
+   .copyDirectory('assets/fonts', 'css/fonts');
 
+// mix.browserSync({
+//    proxy: 'https://localhost/',
+//    files: ['css/app.css'],
+//    https: false,
+//    host: 'localhost',
+//    //open: 'external'
+// })
+
+mix.setPublicPath('./');
 // Full API
 // mix.js(src, output);
 // mix.react(src, output); <-- Identical to mix.js(), but registers React Babel compilation.
