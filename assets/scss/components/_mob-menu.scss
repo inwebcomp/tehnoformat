@@ -1,0 +1,72 @@
+.mob-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: $background-color;
+    z-index: 4;
+    width: 320px;
+    box-shadow: 4px 0 4px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    display: none;
+
+    &--open {
+        display: block;
+    }
+
+    &__main-list {
+        margin-bottom: $padding * 0.5;
+    }
+
+    &__main-link {
+        display: block;
+        padding: $padding * 0.75 $padding;
+        background-color: $input-color;
+        border-bottom: 1px solid $background-color;
+        display: flex;
+        align-items: center;
+        transition: background-color $transition;
+
+        &:hover,
+        &:active,
+        &:focus {
+            background-color: darken($input-color, 7%);
+        }
+        
+        &::before {
+            content: '';
+            display: inline-block;
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            background-color: $primary-color;
+            margin-right: $padding * 0.75;
+        }
+    }
+
+    &__link {
+        display: block;
+        padding: $padding * 0.5 $padding;
+        padding-left: $padding * 2;
+        line-height: 1;
+    }
+
+    &__footer {
+        margin-top: $padding * 0.5;
+        padding: $padding;
+        padding-bottom: $padding * 1.75;
+        background-color: $input-color;
+
+        & .header__contact {
+            margin: 0;
+            margin-bottom: $padding * 0.75;
+        } 
+    }
+
+    &__button {
+        width: 100%;
+        font-size: 1.1rem;
+        margin-top: $padding * 1.5;
+        height: 40px;
+        line-height: 1;
+    }
+}

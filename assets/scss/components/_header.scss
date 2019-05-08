@@ -3,8 +3,20 @@
     font-weight: 500;
     height: $header-first-line-height + $header-height;
 
-    @include media-max(800px) {
-        display: none;
+    @include media-max(825px) {
+        height: $header-first-line-height + $header-height * 0.7;
+    }
+
+    & .menu {
+        @include media-max(825px) {
+            display: none;
+        }
+    }
+
+    &__logo {
+        @include media-max(825px) {
+            width: 163px;
+        }
     }
 }
 
@@ -24,10 +36,15 @@
 
     .container {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
         height: $header-height;
         transition: height $transition;
+
+        @include media-max(825px) {
+            height: $header-height * 0.7;
+        }
     }
 }
 
@@ -40,6 +57,10 @@ body.float-header {
 
         .container {
             height: $header-height * 0.8;
+
+            @include media-max(825px) {
+                height: $header-height * 0.6;
+            }
         }
     }
 }
@@ -51,17 +72,49 @@ body.float-header {
     height: $header-first-line-height;
     line-height: $header-first-line-height;
     margin-right: $padding * 2;
+
+    @include media-max(480px) {
+        display: none;
+    }
+}
+
+.header__menu-toggler {
+    display: none;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+
+    @include media-max(825px) {
+        display: block;
+    }
 }
 
 .header__contacts {
     margin-left: auto;
     display: flex;
+
+    @include media-max(825px) {
+        margin-right: auto;
+        margin-left: 0;
+    }
 }
 
 .header__contact {
     margin-right: $padding * 2;
     display: flex;
     align-items: center;
+
+    @include media-max(1140px) {
+        display: none;
+    }
+
+    &--phone {
+        display: none;
+
+        @include media-max(1140px) {
+            display: flex;
+        }
+    }
 
     i {
         color: $primary-color;
@@ -80,6 +133,10 @@ body.float-header {
     display: grid;
     grid-template-columns: repeat(3, auto);
     grid-column-gap: $padding * 2;
+
+    @include media-max(825px) {
+        display: none;
+    }
 }
 
 .header__category {
@@ -104,7 +161,19 @@ body.float-header {
     display: flex;
     align-items: center;
 
+    @include media-max(1140px) {
+        display: none;
+    }
+
     .icon {
         margin-right: $padding;
+    }
+}
+
+.logo {
+    &__img {
+        max-width: 100%;
+        display: block;
+        height: auto;
     }
 }

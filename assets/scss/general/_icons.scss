@@ -87,6 +87,26 @@
     background-size: contain;
 }
 
+.icon--menu {
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    position: relative;
+    background-color: bg($primary-color);
+    border-radius: 50%;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 14px;
+        background-image: url($icon-path + "menu.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 40px;
+        height: 40px;
+    }
+}
 
 
 
