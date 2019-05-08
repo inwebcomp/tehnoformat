@@ -1,6 +1,4 @@
 <header class="header">
-    
-
     <div class="header__info">
         <div class="container">
             {%controller navigation/top navigation_top cache%}
@@ -43,7 +41,7 @@
                 <div class="header__phone__text">{%config_phone%}</div>
             </a>
 
-            <nav class="mob-menu mob-menu--open">
+            <nav class="mob-menu">
                 <div class="mob-menu__main-list">
                     <a href="#" class="mob-menu__main-link">Вентиляция</a>
                     <a href="#" class="mob-menu__main-link">Вентиляция</a>

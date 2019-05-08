@@ -1535,8 +1535,16 @@ body.float-header .header__float .container {
 .banner {
   color: #FFF;
   background-image: url("/img/content/banner.jpg");
-  background-position: center center;
+  background-position: center top;
   background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1170px) {
+  .banner {
+    background-position-x: 67%;
+    background-size: cover;
+    margin-bottom: 140px;
+  }
 }
 
 .banner .container {
@@ -1549,11 +1557,58 @@ body.float-header .header__float .container {
           align-items: center;
 }
 
+@media screen and (max-width: 1170px) {
+  .banner .container {
+    height: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .banner .container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-top: 16px;
+    padding-bottom: 200px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .banner .container {
+    padding-bottom: 165px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .banner .container {
+    padding-bottom: 145px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .banner__text {
+    max-width: 800px;
+  }
+}
+
 .banner__header {
   font-size: 4.7rem;
   font-weight: bold;
   line-height: initial;
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .banner__header {
+    font-size: 3.7rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .banner__header {
+    font-size: 3rem;
+  }
 }
 
 .banner__header p {
@@ -1566,9 +1621,45 @@ body.float-header .header__float .container {
   margin-bottom: 32px;
 }
 
+@media screen and (max-width: 768px) {
+  .banner__paragraph {
+    margin-bottom: 16px;
+  }
+}
+
 .banner__image {
   margin-top: 16px;
   display: block;
+}
+
+@media screen and (max-width: 1170px) {
+  .banner__image {
+    max-width: 100%;
+    width: 40%;
+    height: auto;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .banner__image {
+    margin: auto;
+    width: 375px;
+    position: absolute;
+    bottom: -165px;
+    left: 50%;
+    -webkit-transform: translateX(-55%);
+            transform: translateX(-55%);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .banner__image {
+    -webkit-transform: translateX(-40%);
+            transform: translateX(-40%);
+    z-index: 1;
+    max-width: 365px;
+  }
 }
 
 .banner__buttons {
@@ -1580,6 +1671,13 @@ body.float-header .header__float .container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
+}
+
+@media screen and (max-width: 560px) {
+  .banner__buttons {
+    z-index: 2;
+  }
 }
 
 .banner__button {
@@ -1596,6 +1694,29 @@ body.float-header .header__float .container {
           align-items: center;
   padding: 8px 16px;
   margin: 16px 16px 16px 0;
+}
+
+@media screen and (max-width: 560px) {
+  .banner__button {
+    width: 100%;
+    margin-right: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .banner__button__icon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .banner__btn-contact {
+    width: 100%;
+    white-space: initial;
+  }
 }
 
 .banner__button__text {

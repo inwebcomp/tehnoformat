@@ -1,13 +1,45 @@
 .banner {
     color: #FFF;
     background-image: url($img-path + "banner.jpg");
-    background-position: center center;
+    background-position: center top;
     background-repeat: no-repeat;
+
+    @include media-max(1170px) {
+        background-position-x: 67%;
+        background-size: cover;
+        margin-bottom: 140px;
+    }
 
     .container {
         height: 550px;
         display: flex;
         align-items: center;
+
+        @include media-max(1170px) {
+            height: auto;
+            padding-top: $padding * 2;
+            padding-bottom: $padding * 2;
+        }
+        
+        @include media-max(1024px) {
+            flex-wrap: wrap;
+            padding-top: $padding;
+            padding-bottom: 200px;
+        }
+
+        @include media-max(560px) {
+            padding-bottom: 165px;
+        }
+
+        @include media-max(425px) {
+            padding-bottom: 145px;
+        }
+    }
+}
+
+.banner__text {
+    @include media-max(1024px) {
+        max-width: 800px;
     }
 }
 
@@ -16,6 +48,14 @@
     font-weight: bold;
     line-height: initial;
     margin: 0;
+
+    @include media-max(768px) {
+        font-size: 3.7rem;
+    }
+
+    @include media-max(425px) {
+        font-size: 3rem;
+    }
 
     p {
         margin: 0;
@@ -26,17 +66,48 @@
     font-size: 1.8rem;
     line-height: 1.4;
     margin-bottom: $padding * 2;
+
+    @include media-max(768px) {
+        margin-bottom: $padding;
+    }
 }
 
 .banner__image {
     margin-top: $padding;
     display: block;
+
+    @include media-max(1170px) {
+        max-width: 100%;
+        width: 40%;
+        height: auto;
+        margin-top: 0;
+    }
+
+    @include media-max(1024px) {
+        margin:  auto;
+        width: 375px;
+        position: absolute;
+        bottom: -165px;
+        left: 50%;
+        transform: translateX(-55%);
+    }
+
+    @include media-max(425px) {
+        transform: translateX(-40%);
+        z-index: 1;
+        max-width: 365px;
+    }
 }
 
 .banner__buttons {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    position: relative;
+    
+    @include media-max(560px) {
+        z-index: 2;
+    }
 }
 
 .banner__button {
@@ -47,6 +118,25 @@
     align-items: center;
     padding: $padding / 2 $padding;
     margin: $padding $padding $padding 0;
+
+    @include media-max(560px) {
+        width: 100%;
+        margin-right: 0;
+        justify-content: center;
+    }
+
+    &__icon {
+        @include media-max(560px) {
+           display: none;
+        }
+    }
+}
+
+.banner__btn-contact {
+    @include media-max(560px) {
+        width: 100%;
+        white-space: initial;
+    }
 }
 
 .banner__button__text {

@@ -21,7 +21,7 @@ mix.js('assets/js/app.js', 'jslib/')
       https: false,
       host: 'localhost',
    })
-   .copyDirectory('assets/fonts', 'css/fonts');
+   //.copyDirectory('assets/fonts', 'css/fonts');
 
 // mix.browserSync({
 //    proxy: 'https://localhost/',

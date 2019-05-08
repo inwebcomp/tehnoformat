@@ -17,7 +17,7 @@
                     <i class="icon icon--cart banner__button__icon"></i>
                 </a>
 
-                <button class="button" @click="showPopup('contact')">{%lang Связаться с нами%}</button>
+                <button class="button banner__btn-contact" @click="showPopup('contact')">{%lang Связаться с нами%}</button>
             </div>
         </div>
         <img class="banner__image" src="/img/content/flat.png" height="477" width="532" align="Flat image"/>
