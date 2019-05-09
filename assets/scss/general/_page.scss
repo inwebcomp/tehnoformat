@@ -38,6 +38,11 @@ body {
 .block {
     padding-top: $padding * 5;
     margin-top: $padding * 5;
+
+    @include media-max(768px) {
+        margin-top: 0;
+        padding-top: $padding * 3.75;
+    }
 }
 
 .block__header {
@@ -111,6 +116,13 @@ body {
     display: block;
     width: fit-content;
 
+    @include media-max(768px) {
+        font-size: 2.8rem;
+    }
+    @include media-max(425px) {
+        font-size: 2.4rem;
+    }
+
     p {
         margin: 0;
     }
@@ -124,6 +136,10 @@ body {
     font-size: 1.8rem;
     color: $font-color-grey;
     font-weight: bold;
+
+    @include media-max(425px) {
+        font-size: 1.6rem;
+    }
 
     p {
         margin: 0;

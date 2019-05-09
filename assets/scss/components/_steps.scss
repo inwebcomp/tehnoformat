@@ -1,8 +1,24 @@
+.block--steps {
+    @include media-max(768px) {
+        margin-top: 0;
+    }
+}
+
 .steps {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: $padding * 3;
     margin-top: $padding * 3;
+
+    @include media-max(1140px) {
+        grid-template-columns: repeat(1, minmax(0, 530px));
+        justify-content: center;
+        grid-row-gap: 14px;
+    }
+
+    @include media-max(560px) {
+        margin-top: $padding * 2;
+    }
 }
 
 .step {
@@ -11,11 +27,37 @@
     padding: $padding * 1.5 $padding $padding $padding;
     position: relative;
 
+    @include media-max(1140px) {
+        margin: 0 $padding * 0.5;
+    }
+
     &:last-child {
+        &::after {
+            display: none;
+        }
+
         .step__icon {
             &::after {
                 display: none;
             }
+        }
+    }
+
+    &::after {
+        content: none;
+        display: block;
+        position: absolute;
+        height: 24px;
+        width: 13px;
+        bottom: -17px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-size: cover;
+        background-image: url($img-path + "arrow-right.svg");
+        transform: rotate(90deg);
+
+        @include media-max(1140px) {
+            content: '';
         }
     }
 }
@@ -59,5 +101,9 @@
         width: 10px;
         margin: 0 2px -1px 0;
         background-image: url($img-path + "arrow-right.svg");
+
+        @include media-max(1140px) {
+            display: none;
+        }
     }
 }

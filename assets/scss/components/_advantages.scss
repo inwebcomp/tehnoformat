@@ -1,8 +1,24 @@
+.block--advantages {
+    @include media-max(560px) {
+        margin-top: 0;
+    }
+}
+
 .advantages {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: $padding * 2;
     grid-row-gap: $padding * 4;
+
+    @include media-max(940px) {
+        grid-template-columns: repeat(2, minmax(0px, 360px));
+        justify-content: space-around;
+    }
+
+    @include media-max(620px) {
+        grid-template-columns: repeat(1, minmax(0px, 360px));
+        grid-row-gap: $padding * 2;
+    }
 
     .advantage {
         &:nth-child(3) {
@@ -11,6 +27,28 @@
 
                 &::before {
                     display: none;
+                }
+            }
+        }
+
+        @include media-max(940px) {          
+            .service__icon {
+                &::before {
+                    display: none;
+                }
+            }
+        }
+
+        @include media-max(560px) {
+            &:nth-child(3) {
+                .service__icon {
+                    margin: 0 $padding * 2  $padding 0;
+
+                    &.circle-icon--left {
+                        @include media-max(560px) {
+                            margin-left: $padding;
+                        }
+                    }
                 }
             }
         }

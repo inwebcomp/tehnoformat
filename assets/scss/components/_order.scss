@@ -3,6 +3,16 @@
     background-position: center center;
     background-repeat: no-repeat;
     padding-bottom: $padding * 5;
+
+    @include media-max(1024px) {
+        background-size: cover;
+    }
+
+    @include media-max(860px) {
+        padding-top: $padding * 4;
+        padding-bottom: $padding * 3;
+        margin-top: $padding * 4;
+    }
 }
 
 .order {
@@ -12,6 +22,11 @@
 
     .title {
         margin: 0 0 $padding * 4;
+        
+        @include media-max(680px) {
+            font-size: 2.4rem;
+            margin-bottom: $padding;
+        }
     }
 
     .subtitle {
@@ -23,11 +38,46 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @include media-max(1024px) {
+        flex-wrap: wrap;
+    }
+    @include media-max(680px) {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .subtitle {
+        flex: 1;
+
+        @include media-max(1024px) {
+            width: 65%;
+            flex: none;
+            margin-right: auto;
+        }
+        @include media-max(680px) {
+            width: 65%;
+            font-size: 1.6rem;
+            margin-top: $padding;
+        }
+    }
+
+    .button {
+        @include media-max(1024px) {
+            margin-top: $padding * 2;
+        }
+    }
 }
 
 .order__text {
     margin-right: $padding * 2;
     padding-bottom: $padding * 2;
+    
+
+    @include media-max(860px) {
+        z-index: 1;
+        margin-right: 0;
+    }
 }
 
 .order__icon {
@@ -44,12 +94,42 @@
         position: absolute;
         left: 50%;
         top: 100%;
+
+        @include media-max(1110px) {
+            width: 800px;
+        }
+
+        @include media-max(1024px) {
+            content: none;
+        }
     }
 }
 
 .order__image {
     position: relative;
     z-index: 1;
+
+    @include media-max(1024px) {
+        width: 300px;
+    }
+    @include media-max(860px) {
+        width: 270px;
+        position: absolute;
+        right: 20px;
+        bottom: -33px;
+        z-index: 0;
+    }
+    @include media-max(680px) {
+        right: -60px;
+        bottom: 15px;
+        width: 250px;
+    }
+
+    @include media-max(425px) {
+        right: -80px;
+        bottom: 40px;
+        width: 240px;
+    }
 }
 
 

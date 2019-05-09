@@ -39,13 +39,19 @@
 
     @include media-max(560px) {
         flex: 1;
-        margin-top: $padding * 0.5;
         font-size: 1.8rem;
+        align-self: center;
     }
 }
 
 .service__icon {
     margin: $padding auto;
+
+    &.circle-icon--left {
+        @include media-max(560px) {
+            margin-left: $padding;
+         }
+    }
 
     @include media-max(560px) {
        order: -1;
