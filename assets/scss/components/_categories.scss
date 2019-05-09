@@ -3,6 +3,10 @@
 
     .subtitle {
         max-width: 320px;
+
+        @include media-max(560px) {
+            flex: 1;
+        }
     }
 }
 
@@ -11,6 +15,18 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
     margin-top: $padding * 3;
+
+    @include media-max(1135px) {
+        grid-template-columns: repeat(auto-fit, 370px);
+        justify-content: center;
+    }
+    @include media-max(1024px) {
+        margin-top: $padding * 2;
+    }
+    @include media-max(425px) {
+        grid-gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(285px, 370px));
+    }
 }
 
 .category {
@@ -53,7 +69,11 @@
     display: block;
 }
 
-
+.category__icon {
+    @include media-max(425px) {
+        display: none;
+    }
+}
 
 .categories-list__header {
     padding: $padding / 2 $padding;

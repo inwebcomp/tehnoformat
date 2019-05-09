@@ -1,5 +1,9 @@
 .block--info {
     margin-top: 0;
+
+    @include media-max(1024px) {
+        padding-top: $padding * 3;
+    }
 }
 
 .info {
@@ -10,16 +14,37 @@
     min-height: 373px;
     padding-top: $padding * 4;
     box-sizing: border-box;
+
+    @include media-max(1024px) {
+        background-image: none;
+        padding-top: $padding;
+        min-height: auto;
+    }
+    @include media-max(768px) {
+        flex-wrap: wrap;
+    }
 }
 
 .info__title {
     width: 410px;
+
+    @include media-max(768px) {
+        width: 100%;
+        line-height: 1.4;
+        font-size: 2.4rem;
+        margin-bottom: $padding;
+    }
 }
 
 .info__description {
     font-size: 1.6rem;
     color: $font-color-grey;
     width: 340px;
+
+    @include media-max(768px) {
+        width: 100%;
+        font-size: 1.4rem;
+    }
 
     p:first-child {
         margin: 0;

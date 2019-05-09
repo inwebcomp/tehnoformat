@@ -7,6 +7,9 @@
     @include media-max(1170px) {
         background-position-x: 67%;
         background-size: cover;
+    }
+
+    @include media-max(1024px) {
         margin-bottom: 140px;
     }
 
