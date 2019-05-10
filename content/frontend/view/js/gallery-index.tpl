@@ -12,9 +12,12 @@
         dots: true,
         margin: 30,
         nav: true,
+        autoHeight:true,
+
         responsive: {
             0: {
-                items: 1
+                items: 1,
+                center: true
             },
             600: {
                 items: 2

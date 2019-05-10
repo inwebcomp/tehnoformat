@@ -16,17 +16,15 @@
     grid-gap: $padding * 2;
 
     @include media-max(1024px) {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-row-gap: $padding * 2;
     }
     @include media-max(768px) {
-        grid-row-gap: $padding * 3;
         grid-template-columns: repeat(2, 1fr);
     }
     @include media-max(560px) {
         grid-template-columns: repeat(1, minmax(280px, 400px));
         justify-content: center;
-        grid-row-gap: $padding * 2;
     }
 }
 

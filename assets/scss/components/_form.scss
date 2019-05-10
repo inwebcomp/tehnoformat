@@ -2,6 +2,12 @@
     .row + .row {
         margin-top: $padding;
     }
+
+    .grid--cols-2 {
+        @include media-max(485px) {
+            grid-template-columns: 1fr;
+        }
+    }
 }
 
 .form-control__input {
@@ -77,6 +83,13 @@
     padding: $padding $padding;
     cursor: pointer;
     height: 60px;
+
+    @include media-max(425px) {
+        padding: $padding * 0.5 $padding;
+        font-size: 1.6rem;
+        height: auto;
+        padding-bottom: $padding * 0.75;
+    }
 }
 
 .form__message {

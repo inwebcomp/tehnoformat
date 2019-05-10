@@ -11,6 +11,7 @@
 
     @include media-max(1024px) {
         margin-bottom: 140px;
+        //overflow-x: hidden;
     }
 
     .container {
@@ -20,13 +21,12 @@
 
         @include media-max(1170px) {
             height: auto;
-            padding-top: $padding * 2;
+            padding-top: $padding * 3;
             padding-bottom: $padding * 2;
         }
         
         @include media-max(1024px) {
             flex-wrap: wrap;
-            padding-top: $padding;
             padding-bottom: 200px;
         }
 
@@ -175,11 +175,21 @@
     transform: translateX(0);
     z-index: 5;
 
+    @include media-max(559px) {
+        padding-left: 100px;
+    }
+
     .icon {
         width: 40px;
         height: 40px;
         margin-right: $padding;
         margin-left: 0;
+
+        @include media-max(559px) {
+            display: block;
+            position: absolute;
+            left: 8px;
+        }
     }
 
     .banner__button__link {

@@ -114,6 +114,10 @@ body.float-header {
         @include media-max(1140px) {
             display: flex;
         }
+
+        i {
+            transform: rotate(98deg);
+        }
     }
 
     i {

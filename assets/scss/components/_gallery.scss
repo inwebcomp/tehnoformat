@@ -1,6 +1,11 @@
 .block--gallery {
+
     .title {
         margin-bottom: $padding * 3;
+
+        @include media-max(768px) { 
+            margin-bottom: $padding * 2 - 5;
+        }
     }
 }
 
@@ -17,6 +22,10 @@
     position: relative;
     border-radius: $border-radius;
     margin-bottom: $padding * 2;
+
+    .owl-carousel .owl-item img {
+        height: auto;
+    }
 }
 
 .gallery__content {
@@ -51,6 +60,7 @@
 .gallery__image {
     display: block;
     position: relative;
+    height: auto;
 }
 
 .owl-stage-outer {
@@ -86,7 +96,7 @@ body .owl-theme {
             border-radius: 20px;
             position: absolute;
             top: 50%;
-            margin: -20px 0 0 -20px;
+            margin: -20px 0 0 -16px;
             border: none;
 
             &::after {
@@ -109,7 +119,7 @@ body .owl-theme {
 
         button.owl-next {
             right: 0;
-            margin: -20px -20px 0 0;
+            margin: -20px -16px 0 0;
 
             &::after {
                 margin: 0 -2px -2px 0;
