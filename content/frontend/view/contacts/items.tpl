@@ -1,4 +1,4 @@
-<div class="contacts container">
+<div class="container contacts">
     {%list contacts%}
         <div class="contact">
             <div class="contact__icon"><img class="contact__icon__img" src="/img/images/Contacts/{%.ID%}/{%.base_image%}" alt="{%.title%}"></div>

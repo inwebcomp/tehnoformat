@@ -101,12 +101,34 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: $padding * 5;
     margin-top: $padding * 5;
+ 
+    @include media-max($content-width + $padding * 2) {
+        padding: 0 $padding * 3.5;
+    }
+    @include media-max(930px) {
+        grid-template-columns: 1fr;
+    }
+    @include media-max(460px) {
+        padding: 0;
+        grid-gap: $padding * 4;
+    }
 }
 
 .contact {
     border: 1px dashed $border-color;
     position: relative;
     padding: $padding * 2 $padding * 2 $padding * 2 $padding * 5;
+
+    @include media-max($content-width + $padding * 2) {
+        padding: $padding * 2 0 $padding * 3;  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    @include media-max(460px) {
+        width: 100%;
+        padding: $padding * 2.5 0 $padding;  
+    }
 }
 
 .contact__icon {
@@ -118,12 +140,24 @@
     position: absolute;
     top: -45px;
     left: -45px;
+
+    @include media-max(460px) {
+        left: 15px;
+        box-sizing: border-box;
+        padding: 10px;
+        top: -35px;    
+    }
 }
 
 .contact__icon__img {
     display: block;
     width: 50px;
     height: 50px;
+
+    @include media-max(460px) {
+        width: 30px;
+        height: 30px;
+    }
 }
 
 .contact__title {
@@ -134,6 +168,32 @@
     bottom: 100%;
     margin-bottom: $padding / 2;
     left: $padding * 5;
+
+    @include media-max(460px) {
+        margin-bottom: 3px;
+        line-height: 1.2;
+    }
+}
+
+.contact__info {
+    max-width: 80%;
+    //margin: 0 15px 0 auto;
+
+    @include media-max(1024px) {
+        max-width: 85%;
+        margin: 0 15px 0 auto;
+    }
+    @include media-max(930px) {
+        margin: auto;
+        margin-left: $padding * 6;
+    }
+    @include media-max(540px) {
+        margin: auto;
+        margin-left: $padding * 4;
+    }
+    @include media-max(460px) {
+        margin-left: $padding;
+    }
 }
 
 i.contact__line__icon {
@@ -176,6 +236,7 @@ i.contact__line__icon {
 .contact__line__info {
     display: flex;
     flex-wrap: wrap;
+    flex: 1;
     justify-content: space-between;
 }
 
