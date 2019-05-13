@@ -9,6 +9,13 @@
             font-size: 1.6rem;
         }
 
+        p {
+            @include media-max(1140px) {
+                margin-left: 0 !important;
+                text-align: left !important;
+            }
+        }
+
         p:first-child {
             margin-top: 0;
         }

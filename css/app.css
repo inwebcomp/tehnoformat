@@ -1058,6 +1058,14 @@ transition {
   }
 }
 
+@media screen and (max-width: 1140px) {
+  .text-block p,
+  .fr-view p {
+    margin-left: 0 !important;
+    text-align: left !important;
+  }
+}
+
 .text-block p:first-child,
 .fr-view p:first-child {
   margin-top: 0;
