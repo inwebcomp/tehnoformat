@@ -126,13 +126,14 @@
                 float: none !important;
                 display: block !important;
                 margin-bottom: $padding * 1.5 !important;
-                margin-left: auto !important;
+                margin-top: $padding !important;
+                margin-left: 0 !important;
                 margin-right: auto !important;
                 width: auto !important;
             }
             &.fr-fic {
                 @include media-max(1140px) {
-                    margin-left: auto !important;
+                    margin-left: 0 !important;
                     margin-right: auto !important;
                 }
             }

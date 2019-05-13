@@ -1191,7 +1191,8 @@ transition {
     float: none !important;
     display: block !important;
     margin-bottom: 24px !important;
-    margin-left: auto !important;
+    margin-top: 16px !important;
+    margin-left: 0 !important;
     margin-right: auto !important;
     width: auto !important;
   }
@@ -1200,7 +1201,7 @@ transition {
 @media screen and (max-width: 1140px) {
   .text-block img.fr-fic,
   .fr-view img.fr-fic {
-    margin-left: auto !important;
+    margin-left: 0 !important;
     margin-right: auto !important;
   }
 }
