@@ -88,6 +88,12 @@
     }
 }
 
+.categories-list {
+    @include media-max(1024px) {
+        margin-bottom: $padding * 1.5;
+    }
+}
+
 .categories-list__header {
     padding: $padding / 2 $padding;
     width: 100%;
@@ -98,6 +104,35 @@
     border-radius: $border-radius;
     margin-bottom: $padding / 2;
     color: #FFF;
+    position: relative;
+
+    @include media-max(425px) {
+        font-size: 1.6rem;
+    }
+
+    &::after {
+        display: none;
+        content: '';
+        position: absolute;
+        height: 17px;
+        width: 9px;
+        top: 18px;
+        right: $padding;
+        background-size: cover;
+        background-image: url(/img/content/arrow-right.svg);
+        transform: rotate(90deg);
+        transition: transform $transition;
+
+        @include media-max(1024px) {
+            display: block;
+        }
+    }
+
+    &--open {
+        &::after {
+           transform: rotate(-90deg);
+        }
+    }
 
     .icon {
         margin-right: $padding;
@@ -164,5 +199,9 @@
 .page--category {
     .text-block {
         margin-bottom: $padding * 4;
+
+        @include media-max(1024px) {
+            margin-bottom: 0;
+        }
     }
 }

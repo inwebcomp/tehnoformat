@@ -5,6 +5,14 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: $padding * 4;
+
+    @include media-max(480px) {
+        padding: $padding * 4 $padding * 2.5;
+    }
+    @include media-max(425px) {
+        padding: $padding * 4 $padding;
+    }
+
 }
 
 .help-form__title {

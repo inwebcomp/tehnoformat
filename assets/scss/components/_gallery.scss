@@ -14,6 +14,18 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
     margin-top: $padding * 3;
+
+    @include media-max(980px) {
+        grid-template-columns: repeat(2, minmax(0, 370px));
+        justify-content: center;
+    }
+    @include media-max(640px) {
+        grid-gap: $padding;
+    }
+    @include media-max(540px) {
+        grid-template-columns: minmax(0, 370px);
+        margin-top: $padding * 2;
+    }
 }
 
 .gallery {
@@ -55,12 +67,17 @@
     line-height: initial;
     padding-right: $padding;
     width: min-content;
+
+    @include media-max(768px) {
+        font-size: 1.8rem;
+    }
 }
 
 .gallery__image {
     display: block;
     position: relative;
     height: auto;
+    max-width: 100%;
 }
 
 .owl-stage-outer {
@@ -165,6 +182,21 @@ body .owl-theme {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
     margin-top: $padding * 3;
+
+    @include media-max(980px) {
+        grid-template-columns: repeat(2, minmax(0, 370px));
+        justify-content: center;
+    }
+    @include media-max(640px) {
+        grid-gap: $padding;
+    }
+    @include media-max(540px) {
+        grid-template-columns: minmax(0, 370px);
+        margin-left: -$padding;
+        margin-right: -$padding;
+        margin-top: $padding * 2;
+        grid-gap: 5px;
+    }
 }
 
 .gallery-images__image {

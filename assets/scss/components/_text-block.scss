@@ -2,6 +2,12 @@
         font-size: $font-size;
         line-height: $line-height;
         color: $font-color;
+        overflow: hidden;
+        
+
+        @include media-max(768px) {
+            font-size: 1.6rem;
+        }
 
         p:first-child {
             margin-top: 0;
@@ -89,6 +95,8 @@
             }
         }
 
+        
+
         .fr-class-margin-right {
             margin-right: $padding * 2 !important;
         }
@@ -103,6 +111,23 @@
 
         .fr-class-margin-bottom {
             margin-bottom: $padding * 2 !important;
+        }
+
+        img {
+            @include media-max(1140px) {
+                max-width: 100% !important;
+                float: none !important;
+                display: block !important;
+                margin-bottom: $padding * 1.5 !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+            &.fr-fic {
+                @include media-max(1140px) {
+                    margin-left: auto !important;
+                    margin-right: auto !important;
+                }
+            }
         }
 }
 

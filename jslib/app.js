@@ -1423,6 +1423,8 @@ var app = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
 
         if (document.getElementById('sidebar')) {
             document.addEventListener("DOMContentLoaded", function () {
+
+                if (document.body.clientWidth <= 1024) return false;
                 // setTimeout(() => {
                 new __WEBPACK_IMPORTED_MODULE_7_sticky_sidebar__["a" /* default */]('#sidebar', {
                     containerSelector: '.layout',

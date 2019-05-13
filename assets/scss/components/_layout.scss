@@ -2,4 +2,9 @@
     display: grid;
     grid-template-columns: 270px 1fr;
     grid-gap: $padding * 2;
+
+    @include media-max(1024px) {
+        grid-template-columns: 1fr;
+        grid-gap: $padding;
+    }
 }

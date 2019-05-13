@@ -152,6 +152,8 @@ let app = new Vue({
 
         if (document.getElementById('sidebar')) {
             document.addEventListener("DOMContentLoaded", function() {
+
+                if (document.body.clientWidth <= 1024) return false;        
                 // setTimeout(() => {
                     new StickySidebar('#sidebar', {
                         containerSelector: '.layout',

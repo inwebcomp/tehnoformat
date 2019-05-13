@@ -8,14 +8,36 @@
     font-size: 1.6rem;
     color: $font-color-grey;
     font-weight: 500;
+
+    @include media-max(425px) {
+        margin-bottom: $padding * 2;
+        font-size: 1.4rem;
+        border-left: none;
+        border-right: none;
+        margin-left: -$padding;
+        margin-right: -$padding;
+        padding: $padding * 0.30 0;
+    }
 }
 
 .breadcrumbs__separator {
     margin: 0 $padding / 2;
+
+    @include media-max(425px) {
+        margin: 0;
+    }
 }
 
-.breadcrumbs__item:not(:last-child) {
-    text-decoration: underline;
-    text-underline-position: under;
-    text-decoration-color: #899aaf;
+.breadcrumbs__item {
+    display: inline-block;
+
+    @include media-max(425px) {
+        padding: $padding * 0.5 $padding * 0.75;
+    }
+
+    &:not(:last-child) {
+        text-decoration: underline;
+        text-underline-position: under;
+        text-decoration-color: #899aaf;
+    }
 }
