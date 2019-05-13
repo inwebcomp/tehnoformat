@@ -80,9 +80,6 @@ body.float-header {
 
 .header__menu-toggler {
     display: none;
-    padding: 0;
-    border: none;
-    background-color: transparent;
 
     @include media-max(825px) {
         display: block;

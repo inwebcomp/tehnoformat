@@ -85,6 +85,15 @@
             }
         }
     }
+    @include media-max(1024px) {
+        &:nth-child(2n) {
+            .service__icon {
+                &:before {
+                    display: none;
+                }
+            }
+        }
+    }
 }
 
 .service__text {

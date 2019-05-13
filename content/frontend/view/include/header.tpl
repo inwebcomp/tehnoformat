@@ -42,30 +42,34 @@
             </a>
 
             <nav class="mob-menu">
-                <div class="mob-menu__main-list">
-                    <a href="#" class="mob-menu__main-link">Вентиляция</a>
-                    <a href="#" class="mob-menu__main-link">Вентиляция</a>
-                    <a href="#" class="mob-menu__main-link">Вентиляция</a>
-                    <a href="#" class="mob-menu__main-link">Вентиляция</a>
-                    <a href="#" class="mob-menu__main-link">Вентиляция</a>
-                    <a href="#" class="mob-menu__main-link">Вентиляция</a>
-                </div>
-            
-                <a href="#" class="mob-menu__link">Вентиляция</a>
-                <a href="#" class="mob-menu__link">Вентиляция</a>
-                <a href="#" class="mob-menu__link">Вентиляция</a>
+                <div class="mob-menu__content">
+                    <div class="mob-menu__main-list">
+                        <a href="#" class="mob-menu__main-link">Вентиляция</a>
+                        <a href="#" class="mob-menu__main-link">Вентиляция</a>
+                        <a href="#" class="mob-menu__main-link">Вентиляция</a>
+                        <a href="#" class="mob-menu__main-link">Вентиляция</a>
+                        <a href="#" class="mob-menu__main-link">Вентиляция</a>
+                        <a href="#" class="mob-menu__main-link">Вентиляция</a>
+                    </div>
 
-                <footer class="mob-menu__footer">
-                    <a href="{%pagepath contacts%}" class="header__contact">
-                        <i class="fas fa-map-marker-alt"></i>
-                        {%config_address%}
-                    </a>
-                    <a target="_blank" href="mailto:{%config_email%}" class="header__contact">
-                        <i class="fas fa-envelope"></i>
-                        {%config_email%}
-                    </a>
-                    <button class="mob-menu__button button" @click="showPopup('contact')">{%lang Отправить заявку%}</button>
-                </footer>
+                    <div class="mob-menu__second-list">
+                        <a href="#" class="mob-menu__link">Вентиляция</a>
+                        <a href="#" class="mob-menu__link">Вентиляция</a>
+                        <a href="#" class="mob-menu__link">Вентиляция</a>
+                    </div>
+
+                    <footer class="mob-menu__footer">
+                        <a href="{%pagepath contacts%}" class="header__contact">
+                            <i class="fas fa-map-marker-alt"></i>
+                            {%config_address%}
+                        </a>
+                        <a target="_blank" href="mailto:{%config_email%}" class="header__contact">
+                            <i class="fas fa-envelope"></i>
+                            {%config_email%}
+                        </a>
+                        <button class="mob-menu__button button" @click="showPopup('contact')">{%lang Отправить заявку%}</button>
+                    </footer>
+                </div>
             </nav>
         </div>
     </div>

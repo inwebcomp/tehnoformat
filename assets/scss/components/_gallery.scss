@@ -70,6 +70,10 @@
 .owl-item {
     opacity: 0.15;
 
+    @include media-max($content-width + $padding * 2) { 
+        opacity: 1;
+    }
+
     .gallery__title {
         display: none;
     }

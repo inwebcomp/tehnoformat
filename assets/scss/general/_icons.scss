@@ -148,3 +148,14 @@
         left: 10px;
     }
 }
+
+.menu-toggler {
+    display: block;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+
+    .icon {
+        display: block;
+    }
+}

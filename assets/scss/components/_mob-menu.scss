@@ -2,19 +2,21 @@
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: $background-color;
+    height: calc(100vh - 100%);
+    background-color: $input-color;
     z-index: 4;
     width: 320px;
     box-shadow: 4px 0 4px rgba(0, 0, 0, 0.15);
-    overflow: hidden;
+    overflow-y: auto;
     display: none;
 
     &--open {
         display: block;
     }
 
-    &__main-list {
-        margin-bottom: $padding * 0.5;
+    &__content {
+        height: auto;
+        padding-bottom: 40px;
     }
 
     &__main-link {
@@ -43,6 +45,11 @@
         }
     }
 
+    &__second-list {
+        background-color: #fff;
+        padding: $padding * 0.5 0;
+    }
+
     &__link {
         display: block;
         padding: $padding * 0.5 $padding;
@@ -51,7 +58,6 @@
     }
 
     &__footer {
-        margin-top: $padding * 0.5;
         padding: $padding;
         padding-bottom: $padding * 1.75;
         background-color: $input-color;
@@ -68,5 +74,9 @@
         margin-top: $padding * 1.5;
         height: 40px;
         line-height: 1;
+    }
+
+    .header__contact {
+        display: flex;
     }
 }
