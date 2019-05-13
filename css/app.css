@@ -1185,6 +1185,7 @@ transition {
     margin-bottom: 24px !important;
     margin-left: auto !important;
     margin-right: auto !important;
+    width: auto !important;
   }
 }
 
