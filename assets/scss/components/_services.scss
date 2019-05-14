@@ -48,6 +48,7 @@
     &.circle-icon--left {
         @include media-max(560px) {
             margin-left: $padding;
+            margin-right: $padding;
          }
     }
 

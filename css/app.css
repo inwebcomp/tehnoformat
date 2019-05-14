@@ -1958,6 +1958,7 @@ body.float-header .header__float .container {
 @media screen and (max-width: 559px) {
   .floating-button {
     padding-left: 100px;
+    top: 110px;
   }
 }
 
@@ -2126,6 +2127,7 @@ body.float-header .header__float .container {
 @media screen and (max-width: 560px) {
   .service__icon.circle-icon--left {
     margin-left: 16px;
+    margin-right: 16px;
   }
 }
 
@@ -2684,46 +2686,48 @@ body .popup-container .order-form .contacts-form__form {
   }
 }
 
-.advantages .advantage:nth-child(3n + 3) .service__icon {
+.advantage:nth-child(3n + 3) .service__icon {
   margin: 16px auto;
 }
 
-.advantages .advantage:nth-child(3n + 3) .service__icon::before {
+.advantage:nth-child(3n + 3) .service__icon::before {
   display: none;
 }
 
 @media screen and (max-width: 1024px) {
-  .advantages .advantage:nth-child(2n) .service__icon::before {
+  .advantage:nth-child(2n) .service__icon::before {
     display: block;
     content: '';
   }
 
-  .advantages .advantage:nth-child(3n + 3) .service__icon::before {
+  .advantage:nth-child(3n + 3) .service__icon::before {
     display: none;
   }
 }
 
 @media screen and (max-width: 940px) {
-  .advantages .advantage:nth-child(2n) .service__icon::before {
+  .advantage:nth-child(2n) .service__icon::before {
     display: none;
     content: '';
   }
 
-  .advantages .advantage .service__icon::before {
+  .advantage .service__icon::before {
     display: none;
     content: '';
   }
 }
 
 @media screen and (max-width: 560px) {
-  .advantages .advantage:nth-child(3) .service__icon {
-    margin: 0 32px 16px 0;
+  .advantage:nth-child(3) .service__icon {
+    margin: 0 16px 16px 0;
   }
-}
 
-@media screen and (max-width: 560px) and (max-width: 560px) {
-  .advantages .advantage:nth-child(3) .service__icon.circle-icon--left {
+  .advantage:nth-child(3) .service__icon.circle-icon--left {
     margin-left: 16px;
+  }
+
+  .advantage:nth-child(3n + 3) .service__icon {
+    margin: 0 16px 16px;
   }
 }
 
@@ -3736,6 +3740,12 @@ i.contact__line__icon {
 .contact__line__value {
   font-weight: bold;
   margin-right: 16px;
+}
+
+@media screen and (max-width: 425px) {
+  .contact__line__value {
+    margin-right: 0;
+  }
 }
 
 .contact__line__value .contact__line__value:last-child {

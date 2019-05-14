@@ -19,46 +19,40 @@
         grid-template-columns: repeat(1, minmax(0px, 360px));
         grid-row-gap: $padding * 2;
     }
+}
 
-    .advantage {
+.advantage {
+    &:nth-child(3n + 3) {
+        .service__icon {
+            margin: $padding auto;
+
+            &::before {
+                display: none;
+            }
+        }
+    }
+    
+    @include media-max(1024px) {
+        &:nth-child(2n) {
+            .service__icon {
+                &::before {
+                    display: block;
+                    content: '';
+                }
+            }
+        }
         &:nth-child(3n + 3) {
             .service__icon {
-                margin: $padding auto;
 
                 &::before {
                     display: none;
                 }
             }
         }
-        
-        @include media-max(1024px) {
-            &:nth-child(2n) {
-                .service__icon {
-                    &::before {
-                        display: block;
-                        content: '';
-                    }
-                }
-            }
-            &:nth-child(3n + 3) {
-                .service__icon {
-    
-                    &::before {
-                        display: none;
-                    }
-                }
-            }
-        }
+    }
 
-        @include media-max(940px) {          
-            &:nth-child(2n) {
-                .service__icon {
-                    &::before {
-                        display: none;
-                        content: '';
-                    }
-                }
-            }
+    @include media-max(940px) {          
+        &:nth-child(2n) {
             .service__icon {
                 &::before {
                     display: none;
@@ -66,18 +60,30 @@
                 }
             }
         }
+        .service__icon {
+            &::before {
+                display: none;
+                content: '';
+            }
+        }
+    }
 
-        @include media-max(560px) {
-            &:nth-child(3) {
-                .service__icon {
-                    margin: 0 $padding * 2  $padding 0;
+    @include media-max(560px) {
+        &:nth-child(3) {
+            .service__icon {
+                margin: 0 16px 16px 0;
 
-                    &.circle-icon--left {
-                        @include media-max(560px) {
-                            margin-left: $padding;
-                        }
+                &.circle-icon--left {
+                    margin-left: $padding;
+                    @include media-max(560px) {
+                        
                     }
                 }
+            }
+        }
+        &:nth-child(3n + 3) {
+            .service__icon {
+                margin: 0 $padding $padding;
             }
         }
     }

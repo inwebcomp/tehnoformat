@@ -228,6 +228,10 @@ i.contact__line__icon {
     font-weight: bold;
     margin-right: $padding;
 
+    @include media-max(425px) {
+        margin-right: 0;
+    }
+
     .contact__line__value:last-child {
         margin-right: 0;
     }
