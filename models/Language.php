@@ -1,5 +1,7 @@
 <?php
 
+use Hex\App\Entity;
+
 class Language extends DatabaseObject
 {
 	static $languages = array();
@@ -515,5 +517,39 @@ class Language extends DatabaseObject
 		}
 
 		return array(0 => lang('Любой')) + $items;
-	}	
+	}
+
+    public static function getAlternativePath($language)
+    {
+        $otherLang = $language == 'ru' ? 2 : 1;
+        $otherLangName = $language == "ru" ? "ro" : "ru";
+        /** @var Entity $object */
+        $object = Application::$mainObjectData;
+
+        $alternative = '';
+
+        if ($object) {
+            $model = $object->getModelName();
+            $model_ml = $model . '_ml';
+
+            if ($model_ml and in_array($model, ['Category', 'Gallery', 'Pages'])) {
+                $name = Model::$db->Value("SELECT `name` FROM $model_ml WHERE ID = '{$object->ID}' AND lang_ID = '$otherLang'");
+                $alternative = $name;
+
+                if ($model == 'Gallery') {
+                    $pageID = Pages::pagesMap()['gallery'];
+                    $pageName = Model::$db->Value("SELECT `name` FROM Pages_ml WHERE ID = '{$pageID}' AND lang_ID = '$otherLang'");
+                    $alternative = $pageName . '/' . $alternative;
+                }
+            } else {
+                $alternative = $object->name;
+            }
+        }
+
+        $alternative = ($otherLangName == Model::$conf->default_language ? '/' : '/' . $otherLangName) . ($alternative ? '/' . $alternative : '');
+
+        $alternative = '/' . trim($alternative, '/');
+
+        return $alternative;
+    }
 }

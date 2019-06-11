@@ -22,16 +22,4 @@
         </div>
         <img class="banner__image" src="/img/content/flat.png" height="477" width="532" align="Flat image"/>
     </div>
-
-    <a target="_blank" href="//www.termoformat.md" class="floating-button banner__button button button--accent">
-        <i class="icon icon--cart banner__button__icon"></i>
-        <div class="banner__button__info">
-            <div class="banner__button__text">{%lang Посетите наш интернет магазин%}</div>
-
-            <div class="banner__button__link">
-                <i class="fas fa-link"></i>
-                www.termoformat.md
-            </div>
-        </div>
-    </a>
 </div>

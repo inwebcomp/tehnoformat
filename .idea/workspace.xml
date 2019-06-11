@@ -1,7 +1,1104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2667025-6b73-478e-b526-f3178c943909" name="Default" comment="" />
+    <list default="true" id="c2667025-6b73-478e-b526-f3178c943909" name="Default" comment="Change languages">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/frontend/view/navigation/mobile.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/components/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/components/_mob-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/components/_mob-menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/components/_sidebars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/components/_sidebars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/frontend/controller/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/frontend/controller/navigation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/frontend/view/catalog/language.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/content/frontend/view/catalog/language.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/frontend/view/include/body-start.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/content/frontend/view/include/body-start.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/frontend/view/include/head-end.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/content/frontend/view/include/head-end.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/frontend/view/include/header.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/content/frontend/view/include/header.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/frontend/view/infoblocks/banner.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/content/frontend/view/infoblocks/banner.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/200x150/ventilyaciya_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/full/ventilyaciya_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/index/ventilyaciya_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/1/ventilyaciya_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_58.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_59.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_60.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_61.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_62.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_63.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_64.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_67.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_68.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_69.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_72.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/200x150/kondicionirovanie_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_58.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_59.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_60.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_61.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_62.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_63.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_64.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_67.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_68.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_69.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_72.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/full/kondicionirovanie_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_58.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_59.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_60.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_61.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_62.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_63.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_64.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_67.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_68.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_69.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_72.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/index/kondicionirovanie_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_58.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_59.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_60.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_61.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_62.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_63.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_64.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_67.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_68.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_69.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_72.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/2/kondicionirovanie_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/200x150/otoplenie_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/full/otoplenie_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/index/otoplenie_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/3/otoplenie_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/200x150/vodosnabzhenie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/200x150/vodosnabzhenie_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/200x150/vodosnabzhenie_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/200x150/vodosnabzhenie_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/200x150/vodosnabzhenie_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/200x150/vodosnabzhenie_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/200x150/vodosnabzhenie_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/200x150/vodosnabzhenie_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/200x150/vodosnabzhenie_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/200x150/vodosnabzhenie_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/200x150/vodosnabzhenie_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/200x150/vodosnabzhenie_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/200x150/vodosnabzhenie_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/200x150/vodosnabzhenie_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/200x150/vodosnabzhenie_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/200x150/vodosnabzhenie_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/200x150/vodosnabzhenie_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/full/vodosnabzhenie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/full/vodosnabzhenie_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/full/vodosnabzhenie_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/full/vodosnabzhenie_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/full/vodosnabzhenie_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/full/vodosnabzhenie_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/full/vodosnabzhenie_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/full/vodosnabzhenie_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/full/vodosnabzhenie_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/full/vodosnabzhenie_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/full/vodosnabzhenie_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/full/vodosnabzhenie_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/full/vodosnabzhenie_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/full/vodosnabzhenie_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/full/vodosnabzhenie_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/full/vodosnabzhenie_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/full/vodosnabzhenie_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/index/vodosnabzhenie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/index/vodosnabzhenie_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/index/vodosnabzhenie_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/index/vodosnabzhenie_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/index/vodosnabzhenie_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/index/vodosnabzhenie_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/index/vodosnabzhenie_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/index/vodosnabzhenie_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/index/vodosnabzhenie_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/index/vodosnabzhenie_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/index/vodosnabzhenie_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/index/vodosnabzhenie_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/index/vodosnabzhenie_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/index/vodosnabzhenie_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/index/vodosnabzhenie_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/index/vodosnabzhenie_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/index/vodosnabzhenie_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/vodosnabzhenie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/vodosnabzhenie_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/vodosnabzhenie_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/vodosnabzhenie_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/vodosnabzhenie_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/vodosnabzhenie_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/vodosnabzhenie_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/vodosnabzhenie_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/vodosnabzhenie_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/vodosnabzhenie_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/vodosnabzhenie_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/vodosnabzhenie_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/vodosnabzhenie_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/vodosnabzhenie_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/vodosnabzhenie_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/vodosnabzhenie_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/4/vodosnabzhenie_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/200x150/promishlennoe-otoplenie_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/full/promishlennoe-otoplenie_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/index/promishlennoe-otoplenie_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/5/promishlennoe-otoplenie_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/200x150/kotelnie_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/full/kotelnie_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/index/kotelnie_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/images/Gallery/6/kotelnie_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jslib/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/jslib/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kernel/application.php" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/application.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Gallery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Language.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Language.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Pages.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Pages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Service.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Service.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,56 +1111,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/frontend/view/default/textblock.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/settings.cfg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1243">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-                <element signature="e#200#238#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/scss/config/_layout.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/scss/general/_includes.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/scss/components/_layout.scss">
+        <entry file="file://$PROJECT_DIR$/content/frontend/view/catalog/language.tpl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
@@ -72,37 +1120,60 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/frontend/controller/catalog.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/backend/view/include/header_free_style.tpl">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/frontend/view/include/header.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kernel/application.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="150" column="23" selection-start-line="150" selection-start-column="23" selection-end-line="150" selection-end-column="23" />
+            <state relative-caret-position="349">
+              <caret line="596" column="9" selection-start-line="596" selection-start-column="9" selection-end-line="596" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/models/Language.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="547" lean-forward="true" selection-start-line="547" selection-end-line="547" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/temp/index.html">
+        <entry file="file://$PROJECT_DIR$/models/Pages.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+            <state relative-caret-position="2273">
+              <caret line="122" column="27" selection-start-line="122" selection-start-column="27" selection-end-line="122" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robots.txt">
+        <entry file="file://$PROJECT_DIR$/models/Category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.htaccess">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+            <state relative-caret-position="442">
+              <caret line="16" column="120" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="120" />
             </state>
           </provider>
         </entry>
@@ -118,12 +1189,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>infoblock</find>
-      <find>$border-color</find>
-      <find>gradi</find>
-      <find>button-fon</find>
-      <find>&quot;button</find>
-      <find>json</find>
       <find>product__title</find>
       <find>product__bu</find>
       <find>froala</find>
@@ -148,6 +1213,12 @@
       <find>recreate</find>
       <find>consol</find>
       <find>devel</find>
+      <find>mob-menu</find>
+      <find>pathStatic</find>
+      <find>. (Application::$language-&gt;name == Model::$conf-&gt;default_language ? '' : Application::$language-&gt;name . '/')</find>
+      <find>public static function pathStatic($data)</find>
+      <find>other_l</find>
+      <find>alter</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/content/frontend/view</dir>
@@ -155,26 +1226,17 @@
       <dir>$PROJECT_DIR$/kernel</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/kernel/model.php" />
-        <option value="$PROJECT_DIR$/Hex/Helpers/Generator.php" />
-        <option value="$PROJECT_DIR$/kernel/settings.php" />
-        <option value="$PROJECT_DIR$/meta/backend/Contacts.xml" />
-        <option value="$PROJECT_DIR$/meta/backend/Gallery.xml" />
-        <option value="$PROJECT_DIR$/meta/backend/Step.xml" />
-        <option value="$PROJECT_DIR$/content/backend/view/client/edit_base.tpl" />
-        <option value="$PROJECT_DIR$/content/backend/view/gallery/edit_base.tpl" />
-        <option value="$PROJECT_DIR$/content/backend/controller/gallery.php" />
-        <option value="$PROJECT_DIR$/content/backend/view/contacts/edit_base.tpl" />
-        <option value="$PROJECT_DIR$/content/backend/view/advantage/edit_base.tpl" />
         <option value="$PROJECT_DIR$/content/backend/view/service/edit_base.tpl" />
         <option value="$PROJECT_DIR$/content/backend/view/step/edit_base.tpl" />
         <option value="$PROJECT_DIR$/content/backend/view/category/field_form_button_type.tpl" />
         <option value="$PROJECT_DIR$/meta/backend/Pages.xml" />
         <option value="$PROJECT_DIR$/content/backend/view/pages/edit_base.tpl" />
-        <option value="$PROJECT_DIR$/content/frontend/view/include/header.tpl" />
         <option value="$PROJECT_DIR$/assets/scss/config/_layout.scss" />
         <option value="$PROJECT_DIR$/assets/scss/general/_icons.scss" />
         <option value="$PROJECT_DIR$/assets/scss/general/_page.scss" />
@@ -184,10 +1246,8 @@
         <option value="$PROJECT_DIR$/content/frontend/view/include/popups.tpl" />
         <option value="$PROJECT_DIR$/content/frontend/view/category/info.tpl" />
         <option value="$PROJECT_DIR$/content/frontend/view/page/index.tpl" />
-        <option value="$PROJECT_DIR$/models/Category.php" />
         <option value="$PROJECT_DIR$/assets/scss/components/_button.scss" />
         <option value="$PROJECT_DIR$/assets/scss/components/_form.scss" />
-        <option value="$PROJECT_DIR$/assets/scss/components/_sidebars.scss" />
         <option value="$PROJECT_DIR$/assets/scss/components/_popup.scss" />
         <option value="$PROJECT_DIR$/models/User.php" />
         <option value="$PROJECT_DIR$/Hex/App/Entity.php" />
@@ -200,17 +1260,34 @@
         <option value="$PROJECT_DIR$/content/backend/view/category/edit_base.tpl" />
         <option value="$PROJECT_DIR$/content/backend/view/category/field_editor_outside.tpl" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/kernel/application.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/temp/index.html" />
-        <option value="$PROJECT_DIR$/robots.txt" />
         <option value="$PROJECT_DIR$/assets/js/app.js" />
         <option value="$PROJECT_DIR$/assets/scss/general/_includes.scss" />
         <option value="$PROJECT_DIR$/content/frontend/view/default/textblock.tpl" />
         <option value="$PROJECT_DIR$/assets/scss/components/_layout.scss" />
         <option value="$PROJECT_DIR$/settings.cfg" />
+        <option value="$PROJECT_DIR$/content/frontend/controller/navigation.php" />
+        <option value="$PROJECT_DIR$/assets/scss/components/_header.scss" />
+        <option value="$PROJECT_DIR$/content/frontend/view/navigation/mobile.tpl" />
+        <option value="$PROJECT_DIR$/assets/scss/components/_mob-menu.scss" />
+        <option value="$PROJECT_DIR$/content/frontend/view/include/body-start.tpl" />
+        <option value="$PROJECT_DIR$/assets/scss/components/_sidebars.scss" />
+        <option value="$PROJECT_DIR$/robots.txt" />
+        <option value="$PROJECT_DIR$/models/Gallery.php" />
+        <option value="$PROJECT_DIR$/models/Pages.php" />
+        <option value="$PROJECT_DIR$/models/Service.php" />
+        <option value="$PROJECT_DIR$/models/Category.php" />
+        <option value="$PROJECT_DIR$/content/frontend/view/catalog/language.tpl" />
+        <option value="$PROJECT_DIR$/content/frontend/controller/catalog.php" />
+        <option value="$PROJECT_DIR$/content/frontend/view/include/header.tpl" />
+        <option value="$PROJECT_DIR$/kernel/application.php" />
+        <option value="$PROJECT_DIR$/models/Language.php" />
       </list>
     </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1">
     <include_path>
@@ -239,100 +1316,101 @@
         <subPane>
           <expand>
             <path>
-              <item name="tehnoformat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tehnoformat" type="462c0819:PsiDirectoryNode" />
+              <item name="tehnoformat.md" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tehnoformat.md" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tehnoformat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tehnoformat" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tehnoformat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tehnoformat" type="462c0819:PsiDirectoryNode" />
+              <item name="tehnoformat.md" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tehnoformat.md" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tehnoformat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tehnoformat" type="462c0819:PsiDirectoryNode" />
+              <item name="tehnoformat.md" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tehnoformat.md" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tehnoformat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tehnoformat" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tehnoformat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tehnoformat" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="forms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tehnoformat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tehnoformat" type="462c0819:PsiDirectoryNode" />
+              <item name="tehnoformat.md" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tehnoformat.md" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tehnoformat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tehnoformat" type="462c0819:PsiDirectoryNode" />
+              <item name="tehnoformat.md" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tehnoformat.md" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tehnoformat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tehnoformat" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tehnoformat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tehnoformat" type="462c0819:PsiDirectoryNode" />
+              <item name="tehnoformat.md" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tehnoformat.md" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
               <item name="general" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tehnoformat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tehnoformat" type="462c0819:PsiDirectoryNode" />
-              <item name="Console" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tehnoformat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tehnoformat" type="462c0819:PsiDirectoryNode" />
+              <item name="tehnoformat.md" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tehnoformat.md" type="462c0819:PsiDirectoryNode" />
               <item name="content" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tehnoformat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tehnoformat" type="462c0819:PsiDirectoryNode" />
-              <item name="Hex" type="462c0819:PsiDirectoryNode" />
+              <item name="tehnoformat.md" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tehnoformat.md" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tehnoformat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tehnoformat" type="462c0819:PsiDirectoryNode" />
-              <item name="kernel" type="462c0819:PsiDirectoryNode" />
+              <item name="tehnoformat.md" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tehnoformat.md" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tehnoformat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tehnoformat" type="462c0819:PsiDirectoryNode" />
+              <item name="tehnoformat.md" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tehnoformat.md" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tehnoformat.md" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tehnoformat.md" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="category" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tehnoformat.md" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tehnoformat.md" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tehnoformat.md" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tehnoformat.md" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="navigation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tehnoformat.md" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tehnoformat.md" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="popups" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tehnoformat.md" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tehnoformat.md" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tehnoformat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tehnoformat" type="462c0819:PsiDirectoryNode" />
-              <item name="temp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tehnoformat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tehnoformat" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -342,22 +1420,22 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/content/frontend/view" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/css/fonts" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/frontend/view/navigation" />
       <recent name="$PROJECT_DIR$/content/backend/view/category" />
       <recent name="$PROJECT_DIR$/content/frontend/controller" />
       <recent name="$PROJECT_DIR$/content/frontend/view/page" />
       <recent name="$PROJECT_DIR$/content/backend/view/service" />
-      <recent name="$PROJECT_DIR$/content/backend/view/gallery" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css/fonts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -428,22 +1506,29 @@
       <workItem from="1550077787132" duration="4307000" />
       <workItem from="1550158772069" duration="7000" />
       <workItem from="1550312131300" duration="8967000" />
+      <workItem from="1558192986720" duration="1703000" />
+      <workItem from="1559113810671" duration="11000" />
+      <workItem from="1559113928700" duration="88000" />
+      <workItem from="1559901149278" duration="366000" />
+      <workItem from="1559907768260" duration="58000" />
+      <workItem from="1560238514258" duration="1899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127675000" />
+    <option name="totallyTimeSpent" value="131800000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
       <window_info id="Structure" order="2" weight="0.18783352" />
       <window_info id="npm" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32945737" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -485,120 +1570,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Change languages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change languages" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/content/frontend/view/include/header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/config/_interaction.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/general/_fonts.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/general/_grid.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/general/_icons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/general/_global.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/frontend/view/include/footer.tpl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/frontend/view/include/body-end.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jslib/functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="152" column="11" lean-forward="true" selection-start-line="142" selection-start-column="8" selection-end-line="152" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/backend/view/js/cms_edit.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6135" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/backend/view/default/edit.tpl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/backend/view/default/field_editor.tpl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/frontend/view/include/popups.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meta/backend/Currency.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="3" column="71" lean-forward="true" selection-start-line="3" selection-start-column="71" selection-end-line="4" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meta/backend/Admmenu.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meta/backend/Settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="15" column="57" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meta/backend/Pages.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="3" column="84" lean-forward="true" selection-start-line="3" selection-start-column="84" selection-end-line="4" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/frontend/view/page/index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/frontend/view/category/info.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/components/_page.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/general/_page.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -624,13 +1600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1481">
           <caret line="91" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/components/_sidebars.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -660,20 +1629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="147" column="29" lean-forward="true" selection-start-line="147" selection-start-column="29" selection-end-line="147" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hex/App/Entity.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="298" selection-start-line="298" selection-end-line="298" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/frontend/controller/category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -742,31 +1697,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kernel/application.php">
+    <entry file="file://$PROJECT_DIR$/content/frontend/view/default/textblock.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="150" column="23" selection-start-line="150" selection-start-column="23" selection-end-line="150" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robots.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="68">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -777,13 +1711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/general/_includes.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/scss/components/_layout.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -791,10 +1718,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/temp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1243">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="223">
+          <caret line="120" column="46" lean-forward="true" selection-start-line="120" selection-start-column="46" selection-end-line="120" selection-end-column="46" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
             <element signature="e#200#238#0" expanded="true" />
@@ -802,17 +1757,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/frontend/view/default/textblock.tpl">
+    <entry file="file://$PROJECT_DIR$/content/frontend/view/include/head-start.tpl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/frontend/view/include/head-end.tpl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/components/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="612">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.cfg">
+    <entry file="file://$PROJECT_DIR$/assets/scss/components/_navigation.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/frontend/view/include/body-start.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        <state relative-caret-position="170">
+          <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/general/_includes.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/components/_mob-menu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/general/_icons.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/components/_sidebars.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/frontend/controller/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/frontend/view/navigation/top.tpl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/frontend/view/category/top.tpl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robots.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/frontend/view/navigation/mobile.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="1" column="129" selection-start-line="1" selection-start-column="129" selection-end-line="1" selection-end-column="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/frontend/controller/navigation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="38" column="27" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Gallery.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/frontend/view/catalog/language.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/backend/view/include/header_free_style.tpl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/frontend/controller/catalog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hex/App/Entity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/frontend/view/include/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="16" column="120" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Pages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2273">
+          <caret line="122" column="27" selection-start-line="122" selection-start-column="27" selection-end-line="122" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kernel/application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="596" column="9" selection-start-line="596" selection-start-column="9" selection-end-line="596" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Language.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="547" lean-forward="true" selection-start-line="547" selection-end-line="547" />
         </state>
       </provider>
     </entry>

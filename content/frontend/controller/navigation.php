@@ -34,6 +34,11 @@ class controller_navigation
         return $this->top();
     }
 
+    public function mobile()
+    {
+        return ['categories' => Category::getAll()];
+    }
+
     public function meta()
     {
         $content = [];

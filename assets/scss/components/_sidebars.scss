@@ -1,5 +1,9 @@
 $close-button-size: $padding * 3;
 
+.sidebar {
+    display: none;
+}
+
 .sidebar__overlay {
     content: "";
     display: none;
@@ -18,13 +22,19 @@ $close-button-size: $padding * 3;
     top: 0;
     right: 0;
     height: $close-button-size;
+    line-height: $close-button-size;
     width: $close-button-size;
     cursor: pointer;
     text-align: center;
     z-index: 2;
+    color: $primary-color;
 }
 
 @media only screen and (max-width: 1170px) {
+    .sidebar {
+        display: block;
+    }
+
     .sidebar__close {
         display: block;
     }

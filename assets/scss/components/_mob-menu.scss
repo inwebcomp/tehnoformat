@@ -1,22 +1,15 @@
 .mob-menu {
     position: absolute;
-    top: 100%;
-    left: 0;
-    height: calc(100vh - 100%);
     background-color: $input-color;
-    z-index: 4;
-    width: 320px;
-    box-shadow: 4px 0 4px rgba(0, 0, 0, 0.15);
-    overflow-y: auto;
-    display: none;
+    z-index: 11;
+    width: 100%;
 
-    &--open {
-        display: block;
+    &__logo {
+        margin: 4px;
     }
 
     &__content {
         height: auto;
-        padding-bottom: 40px;
     }
 
     &__main-link {

@@ -14,12 +14,12 @@ class Category extends Entity
 
     public function path()
     {
-        return '/' . (Application::$language->name == Model::$conf->default_language ? '' : Application::$language->name) . $this->name;
+        return '/' . (Application::$language->name == Model::$conf->default_language ? '' : Application::$language->name . '/') . $this->name;
     }
 
     public static function pathStatic($data)
     {
-        return '/' . (Application::$language->name == Model::$conf->default_language ? '' : Application::$language->name) . $data['name'];
+        return '/' . (Application::$language->name == Model::$conf->default_language ? '' : Application::$language->name . '/') . $data['name'];
     }
 
     public static function modifyData($data)

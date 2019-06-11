@@ -306,6 +306,7 @@ final class Application
         $content['language'] = Application::$language->GetInfo();
         $content['language_name'] = Application::$language->name;
         $content['other_language'] = Application::$language->name == 'ru' ? 'ro' : 'ru';
+        $content['alternative_path'] = Language::getAlternativePath(Application::$language->name);
         $content['language_url'] = (Application::$language->name == Model::$conf->default_language) ? '' : '/' . Application::$language->name;
         $content['default_language'] = Language::$default_language;
         $content['section'] = Application::$section;
@@ -597,6 +598,10 @@ final class Application
 
         if (! ($page = Pages::one($query[0])) or ! $page->published())
             return ['404'];
+        else {
+            self::$pageObject = $page;
+            self::$mainObjectData = $page;
+        }
 
         if ($query[0] == Pages::getUrlName('gallery')) {
             if ($query[1] != '') {
@@ -611,6 +616,8 @@ final class Application
                 } else {
                     return ['404'];
                 }
+            } else {
+                self::$mainObjectData = Pages::getPageByName('gallery');
             }
         }
 

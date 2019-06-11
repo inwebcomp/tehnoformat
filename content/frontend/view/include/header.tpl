@@ -21,7 +21,7 @@
 
             <button class="header__button button" @click="showPopup('contact')">{%lang Отправить заявку%}</button>
 
-            <a href="{%if other_language == default_language%}/{%else%}/{%other_language%}{%endif%}" class="language link">{%other_language%}</a>
+            <a href="{%alternative_path%}" class="language link">{%other_language%}</a>
         </div>
     </div>
     <div class="header__float">
@@ -40,37 +40,18 @@
                 <i class="icon icon--phone"></i>
                 <div class="header__phone__text">{%config_phone%}</div>
             </a>
-
-            <nav class="mob-menu">
-                <div class="mob-menu__content">
-                    <div class="mob-menu__main-list">
-                        <a href="#" class="mob-menu__main-link">Вентиляция</a>
-                        <a href="#" class="mob-menu__main-link">Вентиляция</a>
-                        <a href="#" class="mob-menu__main-link">Вентиляция</a>
-                        <a href="#" class="mob-menu__main-link">Вентиляция</a>
-                        <a href="#" class="mob-menu__main-link">Вентиляция</a>
-                        <a href="#" class="mob-menu__main-link">Вентиляция</a>
-                    </div>
-
-                    <div class="mob-menu__second-list">
-                        <a href="#" class="mob-menu__link">Вентиляция</a>
-                        <a href="#" class="mob-menu__link">Вентиляция</a>
-                        <a href="#" class="mob-menu__link">Вентиляция</a>
-                    </div>
-
-                    <footer class="mob-menu__footer">
-                        <a href="{%pagepath contacts%}" class="header__contact">
-                            <i class="fas fa-map-marker-alt"></i>
-                            {%config_address%}
-                        </a>
-                        <a target="_blank" href="mailto:{%config_email%}" class="header__contact">
-                            <i class="fas fa-envelope"></i>
-                            {%config_email%}
-                        </a>
-                        <button class="mob-menu__button button" @click="showPopup('contact')">{%lang Отправить заявку%}</button>
-                    </footer>
-                </div>
-            </nav>
         </div>
     </div>
 </header>
+
+<a target="_blank" href="//www.termoformat.md" class="floating-button banner__button button button--accent">
+    <i class="icon icon--cart banner__button__icon"></i>
+    <div class="banner__button__info">
+        <div class="banner__button__text">{%lang Посетите наш интернет магазин%}</div>
+
+        <div class="banner__button__link">
+            <i class="fas fa-link"></i>
+            www.termoformat.md
+        </div>
+    </div>
+</a>

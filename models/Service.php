@@ -17,7 +17,7 @@ class Service extends Entity
         if (! $page)
             return null;
 
-        return '/' . (Application::$language->name == Model::$conf->default_language ? '' : Application::$language->name) . $page->name;
+        return '/' . (Application::$language->name == Model::$conf->default_language ? '' : Application::$language->name . '/') . $page->name;
     }
 
     public static function pathStatic($data)
@@ -27,7 +27,7 @@ class Service extends Entity
         if (! $page)
             return null;
 
-        return '/' . (Application::$language->name == Model::$conf->default_language ? '' : Application::$language->name) . $page->name;
+        return '/' . (Application::$language->name == Model::$conf->default_language ? '' : Application::$language->name . '/') . $page->name;
     }
 
     public static function modifyData($data)
